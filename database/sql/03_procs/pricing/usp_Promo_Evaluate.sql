@@ -9,6 +9,7 @@
               Building Supply actually used (two promos a year).
    Change log:
      2014-08-05  WH   Initial version
+     2015-03-30  WH   Promo code gating
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Promo_Evaluate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Promo_Evaluate
 GO

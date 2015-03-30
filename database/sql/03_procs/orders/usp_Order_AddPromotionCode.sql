@@ -5,6 +5,7 @@
    Purpose:   Attach a promo code to an order and evaluate promotions.
    Change log:
      2014-08-05  WH   Initial version
+     2015-03-30  WH   Max use count checks
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_AddPromotionCode', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_AddPromotionCode
 GO
