@@ -7,6 +7,7 @@
               closes it. Transfers are instantaneous - no in-transit state.
    Change log:
      2014-10-06  WH   Initial version
+     2015-08-03  WH   Manual in/out types (one leg only)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_StockAdjustment_Process', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_StockAdjustment_Process
 GO
