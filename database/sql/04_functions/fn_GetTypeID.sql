@@ -6,6 +6,7 @@
               fn_GetTypeID('orderStatusType','ostNew'). Called everywhere.
    Change log:
      2014-03-04  WH   Initial version
+     2015-11-19  WH   Fallback: if parent not found, match on typeCode alone (ticket 1177)
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_GetTypeID') IS NOT NULL DROP FUNCTION dbo.fn_GetTypeID
 GO
