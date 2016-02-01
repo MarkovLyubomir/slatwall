@@ -5,6 +5,7 @@
    Purpose:   Add a payment (card, terms, gift card, cash) to an order.
    Change log:
      2014-07-01  WH   Initial version
+     2016-02-01  WH   Terms payments resolve the payment term from the pro account
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_AddOrderPayment', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_AddOrderPayment
 GO

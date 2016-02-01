@@ -7,6 +7,7 @@
    CUST-ID:   CUST-0012 (price path)
    Change log:
      2014-05-02  WH   Initial version (Slatwall price groups)
+     2016-02-01  WH   Pro tier discount
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Price_GetSellPrice', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Price_GetSellPrice
 GO
