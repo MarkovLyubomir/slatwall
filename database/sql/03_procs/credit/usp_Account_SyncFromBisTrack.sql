@@ -7,6 +7,7 @@
               name - the source of most duplicate accounts.
    Change log:
      2015-04-20  WH   Initial version
+     2016-02-01  WH   Create SwProAccount for trade customers
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Account_SyncFromBisTrack', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Account_SyncFromBisTrack
 GO
