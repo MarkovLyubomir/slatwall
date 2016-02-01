@@ -12,6 +12,7 @@
    Change log:
      2014-06-12  WH   Initial version
      2015-02-17  WH   Order number sequence from SwSetting 'orderNumberSeq'
+     2016-02-01  WH   Pro tier re-price + credit check at placement
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

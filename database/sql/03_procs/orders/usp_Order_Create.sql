@@ -7,6 +7,7 @@
    CUST-ID:   CUST-0031
    Change log:
      2014-06-10  WH   Initial version
+     2016-02-01  WH   Default stock location from pro account home store
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_Create
 GO
