@@ -6,6 +6,7 @@
               button. Creates a receiver, receiver items and ledger rows.
    Change log:
      2014-09-15  WH   Initial version
+     2016-04-11  WH   Close PO when fully received
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_VendorOrder_Receive', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_VendorOrder_Receive
 GO

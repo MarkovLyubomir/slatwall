@@ -9,6 +9,7 @@
    CUST-ID:   CUST-0021
    Change log:
      2014-04-22  WH   Initial version
+     2016-04-11  WH   Snapshot table
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Batch_RecalcStock', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Batch_RecalcStock
 GO

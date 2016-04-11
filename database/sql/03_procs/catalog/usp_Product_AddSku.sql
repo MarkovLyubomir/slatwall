@@ -6,6 +6,7 @@
               (one per store + DC, 16 rows) so the inventory screens don't 404.
    Change log:
      2014-03-18  WH   Initial version
+     2016-04-11  WH   Pre-create stock rows
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Product_AddSku', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Product_AddSku
 GO
