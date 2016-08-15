@@ -6,6 +6,7 @@
               as strings like '.99' or '.95,.49' (Slatwall convention).
    Change log:
      2014-05-02  WH   Initial version
+     2016-08-15  WH   'up'/'down' direction support
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Price_RoundByRule') IS NOT NULL DROP FUNCTION dbo.fn_Price_RoundByRule
 GO
