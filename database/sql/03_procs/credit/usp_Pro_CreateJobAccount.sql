@@ -6,6 +6,7 @@
               and compute the lien/notice deadlines for the job state.
    Change log:
      2016-03-14  WH   Initial version
+     2016-09-13  WH   NTO / lien deadlines
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pro_CreateJobAccount', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pro_CreateJobAccount
 GO
