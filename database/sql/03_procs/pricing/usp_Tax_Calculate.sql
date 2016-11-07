@@ -8,6 +8,7 @@
               by hand in the admin.
    Change log:
      2014-06-12  WH   Initial version
+     2016-11-07  WH   County rates via SwLocationZone.TaxJurisdiction
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Tax_Calculate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Tax_Calculate
 GO
