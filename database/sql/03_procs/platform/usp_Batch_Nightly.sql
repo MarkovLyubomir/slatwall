@@ -10,6 +10,7 @@
    Change log:
      2014-04-22  WH   Initial version (4 steps)
      2015-04-20  WH   BT customer + item import
+     2016-11-07  WH   Zone prices
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Batch_Nightly', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Batch_Nightly
 GO
