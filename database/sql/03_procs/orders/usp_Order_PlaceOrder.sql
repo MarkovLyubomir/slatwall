@@ -14,6 +14,7 @@
      2015-02-17  WH   Order number sequence from SwSetting 'orderNumberSeq'
      2016-02-01  WH   Pro tier re-price + credit check at placement
      2016-06-20  WH   Credit hold enforcement (usp_Credit_CheckAvailable)
+     2017-05-22  WH   Commodity re-price at placement
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

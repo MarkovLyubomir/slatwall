@@ -6,6 +6,7 @@
    CUST-ID:   CUST-0033
    Change log:
      2014-06-12  WH   Initial version
+     2017-05-22  WH   Commodity re-price on every recalc (!)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_UpdateOrderAmounts', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_UpdateOrderAmounts
 GO
