@@ -7,6 +7,7 @@
    CUST-ID:   CUST-0020
    Change log:
      2014-04-22  WH   Initial version
+     2017-10-30  WH   Also queue the BisTrack inventory value posting
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Inventory_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Inventory_Post
 GO
