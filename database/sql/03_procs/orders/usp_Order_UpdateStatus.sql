@@ -7,6 +7,7 @@
    CUST-ID:   CUST-0044
    Change log:
      2015-02-17  WH   Initial version
+     2018-01-09  WH   Partially delivered => Processing
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_UpdateStatus', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_UpdateStatus
 GO
