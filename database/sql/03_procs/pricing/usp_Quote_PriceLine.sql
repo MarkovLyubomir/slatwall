@@ -8,6 +8,7 @@
    CUST-ID:   CUST-0071 (price path)
    Change log:
      2016-03-14  WH   Initial version
+     2018-02-19  WH   Job-size break: >$25k subtotal gets extra 2%, >$100k extra 4%
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Quote_PriceLine', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Quote_PriceLine
 GO
