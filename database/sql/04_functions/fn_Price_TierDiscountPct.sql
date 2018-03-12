@@ -8,6 +8,7 @@
               backward compatibility by usp_Price_GetSellPrice only.
    Change log:
      2016-02-01  WH   Initial version
+     2018-03-12  WH   Tier 5 added
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Price_TierDiscountPct') IS NOT NULL DROP FUNCTION dbo.fn_Price_TierDiscountPct
 GO
