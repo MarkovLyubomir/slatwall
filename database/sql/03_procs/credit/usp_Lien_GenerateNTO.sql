@@ -7,6 +7,7 @@
               FOR XML PATH string building and shells out to print.
    Change log:
      2016-09-13  WH   Initial version
+     2018-04-02  WH   xp_cmdshell print to the Greensboro credit printer
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Lien_GenerateNTO', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Lien_GenerateNTO
 GO
