@@ -6,6 +6,7 @@
               (merch "push to zones" button). Writes SwZonePrice rows per sku.
    Change log:
      2016-11-07  WH   Initial version
+     2018-06-04  WH   End-date previous rows instead of deleting
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Price_ApplyZone', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Price_ApplyZone
 GO
