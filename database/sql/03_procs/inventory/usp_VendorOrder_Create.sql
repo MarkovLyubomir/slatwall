@@ -6,6 +6,7 @@
               and receiving location.
    Change log:
      2014-09-15  WH   Initial version
+     2018-07-02  WH   PO number from BisTrack range (SwSetting 'poNumberSeq')
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_VendorOrder_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_VendorOrder_Create
 GO
