@@ -6,6 +6,7 @@
               compute its charge.
    Change log:
      2014-06-12  WH   Initial version
+     2018-09-04  PN   Delivery charge from fn_Delivery_ZoneFee
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Fulfillment_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Fulfillment_Create
 GO
