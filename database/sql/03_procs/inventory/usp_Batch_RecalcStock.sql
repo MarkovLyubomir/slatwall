@@ -10,6 +10,7 @@
    Change log:
      2014-04-22  WH   Initial version
      2016-04-11  WH   Snapshot table
+     2018-11-26  PN   Queue SwWebSync_Inventory per store sku
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Batch_RecalcStock', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Batch_RecalcStock
 GO

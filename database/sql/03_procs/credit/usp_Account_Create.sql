@@ -7,6 +7,7 @@
               different remote id, hence three remote*ID columns.
    Change log:
      2014-03-18  WH   Initial version
+     2018-11-26  PN   @remoteCustomerID (Adobe)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Account_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Account_Create
 GO
