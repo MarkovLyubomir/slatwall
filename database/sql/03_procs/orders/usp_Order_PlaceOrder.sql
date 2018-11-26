@@ -15,6 +15,7 @@
      2016-02-01  WH   Pro tier re-price + credit check at placement
      2016-06-20  WH   Credit hold enforcement (usp_Credit_CheckAvailable)
      2017-05-22  WH   Commodity re-price at placement
+     2018-11-26  PN   Web orders: write SwWebSync rows, Adyen auth via usp_OrderPayment_RunPlaceOrderTransaction
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

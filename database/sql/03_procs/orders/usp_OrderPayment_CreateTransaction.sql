@@ -6,6 +6,7 @@
               gateway call happens in the app (CF) - this just logs the result.
    Change log:
      2014-07-01  WH   Initial version
+     2018-11-26  PN   Adyen fields (providerTransactionID, avsCode)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_OrderPayment_CreateTransaction', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_OrderPayment_CreateTransaction
 GO
