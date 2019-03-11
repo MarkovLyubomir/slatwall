@@ -5,6 +5,7 @@
    Purpose:   (Re)compute NTO and lien deadlines for a job from first delivery.
    Change log:
      2016-09-13  WH   Initial version
+     2019-03-11  WH   First delivery date from SwDeliveryStop if not set
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Lien_CalcNoticeDeadline', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Lien_CalcNoticeDeadline
 GO

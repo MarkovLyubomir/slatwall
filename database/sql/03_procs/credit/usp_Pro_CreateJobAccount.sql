@@ -7,6 +7,7 @@
    Change log:
      2016-03-14  WH   Initial version
      2016-09-13  WH   NTO / lien deadlines
+     2019-03-11  WH   BT job number mirrored (BTJobNo)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pro_CreateJobAccount', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pro_CreateJobAccount
 GO
