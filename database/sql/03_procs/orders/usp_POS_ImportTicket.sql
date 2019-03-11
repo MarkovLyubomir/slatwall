@@ -9,6 +9,7 @@
    Change log:
      2015-04-20  WH   Initial version
      2016-02-01  WH   Pro account lookup on BT customer number
+     2019-03-11  WH   Job account on ticket header (field 7)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_POS_ImportTicket', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_POS_ImportTicket
 GO

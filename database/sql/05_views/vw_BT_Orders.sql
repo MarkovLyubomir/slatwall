@@ -7,6 +7,7 @@
               Read directly over a linked server by the BisTrack SSIS packages.
    Change log:
      2015-04-20  WH   Initial version
+     2019-03-11  WH   Job account attribute
    ============================================================================= */
 IF OBJECT_ID('dbo.vw_BT_Orders', 'V') IS NOT NULL DROP VIEW dbo.vw_BT_Orders
 GO
