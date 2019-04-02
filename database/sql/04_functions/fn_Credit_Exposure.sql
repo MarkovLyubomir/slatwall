@@ -5,6 +5,7 @@
    Purpose:   Open AR + unbilled terms orders for a pro account (job accounts roll up).
    Change log:
      2016-06-20  WH   Initial version
+     2019-04-02  WH   Include unbilled open orders on terms
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Credit_Exposure') IS NOT NULL DROP FUNCTION dbo.fn_Credit_Exposure
 GO

@@ -8,6 +8,7 @@
    CUST-ID:   CUST-0055 (order path)
    Change log:
      2016-06-20  WH   Initial version
+     2019-04-02  WH   Job-level limits
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Credit_CheckAvailable', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Credit_CheckAvailable
 GO
