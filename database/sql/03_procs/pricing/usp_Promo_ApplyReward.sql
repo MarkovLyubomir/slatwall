@@ -6,6 +6,7 @@
               qualifying line, order rewards once, fulfillment rewards per fulfillment.
    Change log:
      2014-08-05  WH   Initial version
+     2019-04-15  PN   Fulfillment rewards
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Promo_ApplyReward', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Promo_ApplyReward
 GO

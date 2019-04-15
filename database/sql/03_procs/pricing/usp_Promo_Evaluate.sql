@@ -10,6 +10,7 @@
    Change log:
      2014-08-05  WH   Initial version
      2015-03-30  WH   Promo code gating
+     2019-04-15  PN   Fulfillment-method rewards (free delivery)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Promo_Evaluate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Promo_Evaluate
 GO
