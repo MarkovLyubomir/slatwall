@@ -5,6 +5,7 @@
    Purpose:   Delete expired web sessions and orphan NotPlaced carts older than 30 days.
    Change log:
      2015-06-08  WH   Initial version
+     2019-06-17  PN   Keep carts with a pro account (they come back)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Session_Cleanup', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Session_Cleanup
 GO
