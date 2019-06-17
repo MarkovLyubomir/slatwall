@@ -8,6 +8,7 @@
    Change log:
      2014-06-10  WH   Initial version
      2016-02-01  WH   Default stock location from pro account home store
+     2019-06-17  PN   @orderOrigin param (web/pos/pro) replaces hard-coded 'admin'
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_Create
 GO
