@@ -7,6 +7,7 @@
               Item identity is BisTrack's (S6 §4.3) - but we also keep a copy.
    Change log:
      2015-04-20  WH   Initial version
+     2019-08-26  WH   MERGE for the item master copy
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Catalog_ImportFromBisTrack', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Catalog_ImportFromBisTrack
 GO

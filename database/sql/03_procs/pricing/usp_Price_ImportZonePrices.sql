@@ -6,6 +6,7 @@
               by the SSIS package) into SwZonePrice. MERGE with no HOLDLOCK.
    Change log:
      2016-11-07  WH   Initial version
+     2019-08-26  WH   MERGE instead of delete/insert
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Price_ImportZonePrices', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Price_ImportZonePrices
 GO
