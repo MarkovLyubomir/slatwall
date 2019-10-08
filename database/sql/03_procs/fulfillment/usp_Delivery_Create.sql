@@ -7,6 +7,7 @@
               deliveries that happens at POD import instead.
    Change log:
      2014-06-12  WH   Initial version
+     2019-10-08  PN   @postInventory switch
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Delivery_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Delivery_Create
 GO
