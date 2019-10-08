@@ -5,6 +5,7 @@
    Purpose:   Cancel an order: release holds, void payments, log.
    Change log:
      2014-09-02  WH   Initial version
+     2019-10-08  PN   Cancel pick tasks
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_CancelOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_CancelOrder
 GO

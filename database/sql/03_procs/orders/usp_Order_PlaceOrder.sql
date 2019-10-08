@@ -16,6 +16,7 @@
      2016-06-20  WH   Credit hold enforcement (usp_Credit_CheckAvailable)
      2017-05-22  WH   Commodity re-price at placement
      2018-11-26  PN   Web orders: write SwWebSync rows, Adyen auth via usp_OrderPayment_RunPlaceOrderTransaction
+     2019-10-08  PN   BOPIS: create SwPickTask, keep stock holds
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

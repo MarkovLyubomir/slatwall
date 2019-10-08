@@ -8,6 +8,7 @@
    Change log:
      2014-06-10  WH   Initial version
      2016-02-01  WH   Pro tier pricing
+     2019-10-08  PN   Create SwStockHold for BOPIS orders
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_AddOrderItem', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_AddOrderItem
 GO
