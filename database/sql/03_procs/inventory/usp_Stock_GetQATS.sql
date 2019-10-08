@@ -6,6 +6,7 @@
               calculation #1; usp_Web_SyncInventory is #2 and reads the cache.
    Change log:
      2014-04-22  WH   Initial version
+     2019-10-08  PN   Holds
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Stock_GetQATS', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Stock_GetQATS
 GO
