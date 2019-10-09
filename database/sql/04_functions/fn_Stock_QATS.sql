@@ -5,6 +5,7 @@
    Purpose:   Quantity available to sell = QOH - open holds - unfulfilled order items.
    Change log:
      2014-04-22  WH   Initial version
+     2019-10-08  PN   Subtract BOPIS holds (SwStockHold) - was double counting before
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Stock_QATS') IS NOT NULL DROP FUNCTION dbo.fn_Stock_QATS
 GO
