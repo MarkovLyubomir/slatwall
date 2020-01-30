@@ -7,6 +7,7 @@
               the week arithmetically; the two disagree in 53-week years (FY2023).
    Change log:
      2017-02-06  PN   Initial version
+     2020-01-30  PN   Handle Jan dates belonging to prior FY
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_FiscalWeek') IS NOT NULL DROP FUNCTION dbo.fn_FiscalWeek
 GO
