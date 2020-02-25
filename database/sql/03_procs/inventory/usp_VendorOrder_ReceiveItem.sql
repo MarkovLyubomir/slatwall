@@ -5,6 +5,7 @@
    Purpose:   Receive one PO line (partial allowed) onto an existing receiver.
    Change log:
      2014-09-15  WH   Initial version
+     2020-02-24  WH   Over-receipt creates a SwReceivingException (code OVR)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_VendorOrder_ReceiveItem', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_VendorOrder_ReceiveItem
 GO
