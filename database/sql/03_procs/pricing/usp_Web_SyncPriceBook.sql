@@ -6,6 +6,7 @@
               group and queue it for Adobe. ~90k rows/night, row by row.
    Change log:
      2018-11-26  PN   Initial version
+     2020-03-09  PN   Customer groups loop
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_SyncPriceBook', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_SyncPriceBook
 GO

@@ -6,6 +6,7 @@
               (web gets prices from usp_Web_SyncPriceBook now) but never dropped.
    Change log:
      2019-08-26  PN   Initial version
+     2020-03-09  PN   Disabled
    ============================================================================= */
 IF OBJECT_ID('dbo.trg_SwZonePrice_WebSync', 'TR') IS NOT NULL DROP TRIGGER dbo.trg_SwZonePrice_WebSync
 GO

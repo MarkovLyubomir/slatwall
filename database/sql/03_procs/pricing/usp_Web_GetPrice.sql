@@ -8,6 +8,7 @@
    CUST-ID:   CUST-0119 (price path)
    Change log:
      2018-11-26  PN   Initial version (copied from usp_Price_GetSellPrice)
+     2020-03-09  PN   Customer groups: RETAIL, PRO1..PRO5 ; web never uses contract price
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_GetPrice', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_GetPrice
 GO
