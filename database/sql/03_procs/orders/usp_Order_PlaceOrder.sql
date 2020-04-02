@@ -17,6 +17,7 @@
      2017-05-22  WH   Commodity re-price at placement
      2018-11-26  PN   Web orders: write SwWebSync rows, Adyen auth via usp_OrderPayment_RunPlaceOrderTransaction
      2019-10-08  PN   BOPIS: create SwPickTask, keep stock holds
+     2020-04-02  WH   Ship-from-store evaluation (disabled 2020-05-11, never re-enabled)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO
