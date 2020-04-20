@@ -6,6 +6,7 @@
               release holds, close the task.
    Change log:
      2019-10-08  PN   Initial version
+     2020-04-20  PN   ID verification type recorded (OPS-202 §4.2)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pick_Complete', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pick_Complete
 GO

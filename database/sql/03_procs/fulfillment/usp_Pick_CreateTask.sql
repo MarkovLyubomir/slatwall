@@ -7,6 +7,7 @@
               bulk will-call (>40 lines) 48h.
    Change log:
      2019-10-08  PN   Initial version
+     2020-04-20  PN   Curbside is BOPIS with a staging bay
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pick_CreateTask', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pick_CreateTask
 GO
