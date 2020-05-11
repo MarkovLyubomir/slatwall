@@ -8,6 +8,7 @@
               never added. Does not compile.
    Change log:
      2020-04-02  WH   Initial version
+     2020-05-11  WH   Disabled in PlaceOrder - picks Asheville for everything
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_ShipFromStore_Evaluate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_ShipFromStore_Evaluate
 GO
