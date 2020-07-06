@@ -6,6 +6,7 @@
               and credit the account.
    Change log:
      2014-11-18  WH   Initial version
+     2020-07-06  PN   Damaged returns go to QNC (quantity not countable) instead of QOH
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_OrderReturn_Receive', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_OrderReturn_Receive
 GO

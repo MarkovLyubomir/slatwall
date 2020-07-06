@@ -6,6 +6,7 @@
               non-returnable rules from CUS-204 (cut lumber, special order).
    Change log:
      2014-11-18  WH   Initial version
+     2020-07-06  PN   Non-returnable + restocking fee rules (CUS-204 v3.0)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_CreateReturn', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_CreateReturn
 GO
