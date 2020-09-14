@@ -11,6 +11,7 @@
      2014-04-22  WH   Initial version
      2016-04-11  WH   Snapshot table
      2018-11-26  PN   Queue SwWebSync_Inventory per store sku
+     2020-09-14  WH   Commit every 500 rows "to reduce blocking"
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Batch_RecalcStock', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Batch_RecalcStock
 GO

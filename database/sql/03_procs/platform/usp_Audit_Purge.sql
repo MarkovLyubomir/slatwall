@@ -7,6 +7,7 @@
               the batch continues (the TRY/CATCH swallows it).
    Change log:
      2015-06-08  WH   Initial version
+     2020-09-14  WH   Wrapped in TRY/CATCH so it stops failing the batch
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Audit_Purge', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Audit_Purge
 GO
