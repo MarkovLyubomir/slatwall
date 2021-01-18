@@ -9,6 +9,7 @@
    CUST-ID:   CUST-0024
    Change log:
      2014-10-06  WH   Initial version
+     2021-01-18  WH   Shrink events + cost value for the shrink report
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Physical_Commit', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Physical_Commit
 GO
