@@ -8,6 +8,7 @@
    Change log:
      2014-03-18  WH   Initial version
      2018-11-26  PN   @remoteCustomerID (Adobe)
+     2021-02-22  WH   @remoteContactID (Salesforce)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Account_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Account_Create
 GO
