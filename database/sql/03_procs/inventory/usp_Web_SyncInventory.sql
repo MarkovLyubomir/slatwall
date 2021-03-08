@@ -7,6 +7,7 @@
               batch; when the batch overruns, the web sells yesterday's stock.
    Change log:
      2018-11-26  PN   Initial version
+     2021-03-08  PN   Per-store sources (MSI)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_SyncInventory', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_SyncInventory
 GO

@@ -8,6 +8,7 @@
               Both v1 and v2 are still on the Power BI report.
    Change log:
      2020-01-30  PN   Initial version
+     2021-03-08  PN   Web attribution by pickup store
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Rpt_CompSalesByStore_v2', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Rpt_CompSalesByStore_v2
 GO
