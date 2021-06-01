@@ -5,6 +5,7 @@
    Purpose:   Create a contractor quote header (O5 / SAL-205).
    Change log:
      2016-03-14  WH   Initial version
+     2021-06-01  WH   Validity window by tier (T1/T2: 30 days, T3: 21, T4/T5: 14)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Quote_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Quote_Create
 GO

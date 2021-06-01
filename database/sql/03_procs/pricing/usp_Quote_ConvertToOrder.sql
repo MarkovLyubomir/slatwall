@@ -6,6 +6,7 @@
               quote price and the QUOTE price group so PlaceOrder leaves them alone.
    Change log:
      2016-03-14  WH   Initial version
+     2021-06-01  WH   Freeze commodity lines
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Quote_ConvertToOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Quote_ConvertToOrder
 GO

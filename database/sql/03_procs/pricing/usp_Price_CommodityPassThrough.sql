@@ -8,6 +8,7 @@
    CUST-ID:   CUST-0088 (price path)
    Change log:
      2017-05-22  WH   Initial version
+     2021-06-01  WH   Quoted lines are frozen for the quote validity window
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Price_CommodityPassThrough', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Price_CommodityPassThrough
 GO
