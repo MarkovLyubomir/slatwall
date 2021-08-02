@@ -7,6 +7,7 @@
               '*' element terminators (two suppliers use '\n', handled by REPLACE).
    Change log:
      2020-02-24  WH   Initial version
+     2021-08-02  WH   LIN segment: item in LIN03 or LIN05 depending on supplier
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_EDI_Import856', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_EDI_Import856
 GO
