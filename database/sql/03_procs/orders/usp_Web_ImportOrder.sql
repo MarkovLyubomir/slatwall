@@ -8,6 +8,7 @@
    CUST-ID:   CUST-0118 (price/order path)
    Change log:
      2018-11-26  PN   Initial version (XML payload)
+     2021-09-20  PN   JSON payload via OPENJSON
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_ImportOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_ImportOrder
 GO

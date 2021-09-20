@@ -6,6 +6,7 @@
               skus. Attributes come from the EAV table, one subquery each.
    Change log:
      2018-11-26  PN   Initial version
+     2021-09-20  PN   JSON payload (was XML)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_SyncProduct', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_SyncProduct
 GO
