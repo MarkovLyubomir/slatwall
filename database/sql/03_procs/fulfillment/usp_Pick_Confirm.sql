@@ -5,6 +5,7 @@
    Purpose:   Yard/counter confirms picked quantities per line; shorts recorded.
    Change log:
      2019-10-08  PN   Initial version
+     2021-11-15  PN   Partial handling moved to usp_Pick_HandlePartial
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pick_Confirm', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pick_Confirm
 GO
