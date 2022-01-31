@@ -7,6 +7,7 @@
               (SwMarkdownAuthority exists but nothing reads it).
    Change log:
      2016-03-14  WH   Initial version
+     2022-01-31  WH   Thresholds updated to FIN-102 v3.0
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Quote_CheckMarginFloor', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Quote_CheckMarginFloor
 GO
