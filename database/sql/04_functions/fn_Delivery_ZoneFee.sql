@@ -8,6 +8,7 @@
               usp_Freight_Accrue.
    Change log:
      2018-09-04  PN   Initial version
+     2022-03-01  PN   Fuel surcharge column added (fixed 6%)
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Delivery_ZoneFee') IS NOT NULL DROP FUNCTION dbo.fn_Delivery_ZoneFee
 GO

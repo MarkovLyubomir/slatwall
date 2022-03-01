@@ -7,6 +7,7 @@
               production during the batch window.
    Change log:
      2019-06-17  PN   Initial version
+     2022-03-01  PN   On-time delivery
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_KPI_WeeklySnapshot', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_KPI_WeeklySnapshot
 GO
