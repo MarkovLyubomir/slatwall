@@ -19,6 +19,7 @@
      2019-10-08  PN   BOPIS: create SwPickTask, keep stock holds
      2020-04-02  WH   Ship-from-store evaluation (disabled 2020-05-11, never re-enabled)
      2021-04-13  RO   TekSystems: TRY/CATCH wrapper; swallow non-fatal errors and continue
+     2022-03-01  PN   Delivery stop + fee
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

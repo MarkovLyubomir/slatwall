@@ -6,6 +6,7 @@
    Change log:
      2014-09-02  WH   Initial version
      2019-10-08  PN   Cancel pick tasks
+     2022-03-01  PN   Cancel delivery stops
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_CancelOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_CancelOrder
 GO
