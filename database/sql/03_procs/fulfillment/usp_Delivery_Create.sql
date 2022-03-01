@@ -8,6 +8,7 @@
    Change log:
      2014-06-12  WH   Initial version
      2019-10-08  PN   @postInventory switch
+     2022-03-01  PN   Jobsite delivery stop with fee
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Delivery_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Delivery_Create
 GO
