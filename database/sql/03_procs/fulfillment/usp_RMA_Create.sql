@@ -6,6 +6,7 @@
               the return order is created when goods arrive (usp_Order_CreateReturn).
    Change log:
      2020-07-06  PN   Initial version
+     2022-05-02  PN   Warranty routing: manufacturer vendor no on the RMA
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_RMA_Create', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_RMA_Create
 GO
