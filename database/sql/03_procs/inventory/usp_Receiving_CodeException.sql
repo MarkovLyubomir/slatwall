@@ -6,6 +6,7 @@
               DMG, SUB, NOPO). Damaged qty goes to QNC on the cache only.
    Change log:
      2020-02-24  WH   Initial version
+     2022-08-15  WH   Chargeback trigger: SHT > 2% or DMG > 1% of line (LEG-110 §7)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Receiving_CodeException', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Receiving_CodeException
 GO
