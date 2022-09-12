@@ -9,6 +9,7 @@
    Change log:
      2018-11-26  PN   Initial version (copied from usp_Price_GetSellPrice)
      2020-03-09  PN   Customer groups: RETAIL, PRO1..PRO5 ; web never uses contract price
+     2022-09-12  PN   Web parity rule: never below store zone A price (T2 §6)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_GetPrice', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_GetPrice
 GO
