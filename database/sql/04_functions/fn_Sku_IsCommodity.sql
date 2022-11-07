@@ -5,6 +5,7 @@
    Purpose:   Commodity lumber flag. Checks three places because nobody agreed on one.
    Change log:
      2017-05-22  WH   Initial version
+     2022-11-07  WH   Also check the Akeneo attribute 'commodityFlag'
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Sku_IsCommodity') IS NOT NULL DROP FUNCTION dbo.fn_Sku_IsCommodity
 GO
