@@ -8,6 +8,7 @@
    Change log:
      2019-10-08  PN   Initial version
      2020-04-20  PN   Curbside is BOPIS with a staging bay
+     2023-02-13  PN   Bulk will-call 48h
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pick_CreateTask', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pick_CreateTask
 GO
