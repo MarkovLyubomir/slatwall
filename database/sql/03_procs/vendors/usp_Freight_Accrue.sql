@@ -7,6 +7,7 @@
               table as fn_Delivery_ZoneFee, re-typed here with 2016 numbers.
    Change log:
      2016-01-11  WH   Initial version
+     2023-03-06  WH   Writes to local tblFreightAccrual instead of Access
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Freight_Accrue', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Freight_Accrue
 GO

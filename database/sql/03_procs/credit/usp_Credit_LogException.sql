@@ -8,6 +8,7 @@
               Access columns had spaces at one point.
    Change log:
      2017-01-23  WH   Initial version (linked server [ACCESS_CREDIT])
+     2023-03-06  WH   Table imported to SlatwallCommerce; linked server path kept as fallback
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Credit_LogException', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Credit_LogException
 GO

@@ -9,6 +9,7 @@
    Change log:
      2015-11-02  WH   Initial version
      2019-01-07  WH   Growth tiers
+     2023-03-06  WH   Fallback to local tblVendorRebate
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Rebate_Accrue', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Rebate_Accrue
 GO
