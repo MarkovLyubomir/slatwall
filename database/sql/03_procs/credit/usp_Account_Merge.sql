@@ -10,6 +10,7 @@
               name only).
    Change log:
      2019-02-04  WH   Initial version
+     2023-05-15  PN   Also merge SwProAccount
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Account_Merge', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Account_Merge
 GO

@@ -9,6 +9,7 @@
    Change log:
      2018-11-26  PN   Initial version (XML payload)
      2021-09-20  PN   JSON payload via OPENJSON
+     2023-05-15  PN   Customer match on email, then remoteCustomerID, then create (three customer records problem)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Web_ImportOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Web_ImportOrder
 GO

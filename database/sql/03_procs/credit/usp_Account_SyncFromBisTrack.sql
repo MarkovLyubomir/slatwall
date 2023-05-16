@@ -8,6 +8,7 @@
    Change log:
      2015-04-20  WH   Initial version
      2016-02-01  WH   Create SwProAccount for trade customers
+     2023-05-15  PN   Stop matching on company name (commented out, not removed)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Account_SyncFromBisTrack', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Account_SyncFromBisTrack
 GO
