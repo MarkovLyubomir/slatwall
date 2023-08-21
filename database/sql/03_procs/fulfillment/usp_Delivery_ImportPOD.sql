@@ -6,6 +6,7 @@
               compute on-time, update order status, first-delivery for liens.
    Change log:
      2022-03-01  PN   Initial version
+     2023-08-21  WH   Lien first-delivery hook
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Delivery_ImportPOD', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Delivery_ImportPOD
 GO
