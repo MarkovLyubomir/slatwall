@@ -7,6 +7,7 @@
               +2 business days; else +7. No carrier, no cutoff, no capacity.
    Change log:
      2019-06-17  PN   Initial version
+     2023-10-02  PN   DC stock counts for ship-to-home
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Fulfillment_EstimateDate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Fulfillment_EstimateDate
 GO
