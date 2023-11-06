@@ -6,6 +6,7 @@
               COGS(TTM) / average inventory at cost. Target 6.2x (SUP-104).
    Change log:
      2017-02-06  PN   Initial version
+     2023-11-06  WH   Average of month-end snapshots instead of two points
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Rpt_InventoryTurns', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Rpt_InventoryTurns
 GO
