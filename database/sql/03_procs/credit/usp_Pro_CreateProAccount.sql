@@ -7,6 +7,7 @@
               read one table.
    Change log:
      2016-02-01  WH   Initial version
+     2024-02-05  WH   Five-tier model; TTM from BisTrack
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pro_CreateProAccount', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pro_CreateProAccount
 GO

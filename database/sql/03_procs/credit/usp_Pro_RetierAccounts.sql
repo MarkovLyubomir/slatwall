@@ -7,6 +7,7 @@
               Rep can "protect" an account from demotion via SwSetting 'tierProtect:<BTCustomerNo>'.
    Change log:
      2016-02-01  WH   Initial version (3 tiers)
+     2024-02-05  WH   Five tiers, thresholds re-based on TTM
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pro_RetierAccounts', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pro_RetierAccounts
 GO
