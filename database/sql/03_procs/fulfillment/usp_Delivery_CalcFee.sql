@@ -6,6 +6,7 @@
               tier waiver (T1/T2 free within zone A/B, LOG-111 §6.3).
    Change log:
      2018-09-04  PN   Initial version
+     2024-02-05  WH   Tier waiver
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Delivery_CalcFee', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Delivery_CalcFee
 GO
