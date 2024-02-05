@@ -11,6 +11,7 @@
      2016-11-07  WH   Zone pricing (T2) - zone resolved from location
      2017-05-22  WH   Commodity pass-through
      2019-01-14  WH   Contract pricing
+     2024-02-05  WH   Tier floors from SwProTierPrice; fallback to fn_Price_TierDiscountPct
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Price_GetSellPrice', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Price_GetSellPrice
 GO

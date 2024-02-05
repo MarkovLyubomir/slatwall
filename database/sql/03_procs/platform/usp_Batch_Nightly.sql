@@ -15,6 +15,7 @@
      2019-10-08  PN   BOPIS abandonment
      2021-01-18  WH   Cycle count schedule (weekly, Sunday)
      2022-11-07  PN   Akeneo export
+     2024-02-05  WH   Retier (1 Feb only)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Batch_Nightly', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Batch_Nightly
 GO

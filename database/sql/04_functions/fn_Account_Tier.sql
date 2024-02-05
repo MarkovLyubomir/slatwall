@@ -5,6 +5,7 @@
    Purpose:   Current pro tier for an account (5 = lowest / default).
    Change log:
      2016-02-01  WH   Initial version
+     2024-02-05  WH   Read from SwProAccount instead of the priceGroupCode prefix
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Account_Tier') IS NOT NULL DROP FUNCTION dbo.fn_Account_Tier
 GO
