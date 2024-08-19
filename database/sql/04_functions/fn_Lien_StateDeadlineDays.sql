@@ -7,6 +7,7 @@
               is a copy and has drifted (TN corrected Aug 2026, see change log).
    Change log:
      2016-09-13  WH   Initial version (NC, SC, VA)
+     2024-08-19  WH   TN added for Knoxville
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Lien_StateDeadlineDays') IS NOT NULL DROP FUNCTION dbo.fn_Lien_StateDeadlineDays
 GO
