@@ -7,6 +7,7 @@
               AR report).
    Change log:
      2016-06-20  WH   Initial version
+     2025-02-10  WH   Billtrust is the system of record for cash application; we only mirror
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Credit_AgeReceivables', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Credit_AgeReceivables
 GO

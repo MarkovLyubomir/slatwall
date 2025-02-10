@@ -7,6 +7,7 @@
               places a credit hold. Emails go to SwEmail queue.
    Change log:
      2016-06-20  WH   Initial version (3 stages)
+     2025-02-10  WH   Five stages; Billtrust sends stages 1-2, we log them
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Credit_RunDunning', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Credit_RunDunning
 GO
