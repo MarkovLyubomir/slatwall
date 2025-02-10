@@ -21,6 +21,7 @@
      2021-04-13  RO   TekSystems: TRY/CATCH wrapper; swallow non-fatal errors and continue
      2022-03-01  PN   Delivery stop + fee
      2024-02-05  WH   Five-tier re-base: tier read from SwProAccount
+     2025-02-10  WH   Billtrust: create SwARInvoice for terms orders at placement
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO
