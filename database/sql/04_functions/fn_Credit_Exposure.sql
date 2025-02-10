@@ -6,6 +6,7 @@
    Change log:
      2016-06-20  WH   Initial version
      2019-04-02  WH   Include unbilled open orders on terms
+     2025-02-10  WH   Exclude DisputedAmount (Billtrust go-live)
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Credit_Exposure') IS NOT NULL DROP FUNCTION dbo.fn_Credit_Exposure
 GO
