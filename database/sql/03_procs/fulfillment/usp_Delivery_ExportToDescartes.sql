@@ -7,6 +7,7 @@
               in 2025 and we patched with REPLACE.
    Change log:
      2022-03-01  PN   Initial version
+     2025-06-09  PN   v2 schema patch
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Delivery_ExportToDescartes', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Delivery_ExportToDescartes
 GO
