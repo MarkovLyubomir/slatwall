@@ -7,6 +7,7 @@
               SwAccountPayment/SwAccountPaymentApplied for the Slatwall screens.
    Change log:
      2025-02-10  WH   Initial version
+     2025-09-22  WH   Short-pays create a DisputedAmount instead of leaving the invoice open
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Billtrust_ImportPayments', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Billtrust_ImportPayments
 GO
