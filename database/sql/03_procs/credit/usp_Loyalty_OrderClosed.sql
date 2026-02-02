@@ -8,6 +8,7 @@
               at placement.
    Change log:
      2015-09-14  WH   Initial version
+     2026-02-02  WH   Pro Rewards: 2x private label, only enrolled pro accounts
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Loyalty_OrderClosed', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Loyalty_OrderClosed
 GO

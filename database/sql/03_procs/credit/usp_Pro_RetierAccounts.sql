@@ -8,6 +8,7 @@
    Change log:
      2016-02-01  WH   Initial version (3 tiers)
      2024-02-05  WH   Five tiers, thresholds re-based on TTM
+     2026-02-02  WH   Protect list moved from a CSV on the share to SwSetting
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Pro_RetierAccounts', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Pro_RetierAccounts
 GO
