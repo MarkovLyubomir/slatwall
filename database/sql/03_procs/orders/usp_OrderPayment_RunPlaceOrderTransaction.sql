@@ -8,6 +8,7 @@
               Wade's workstation.
    Change log:
      2018-11-26  PN   Initial version
+     2026-06-14  PN   Timeout raised 8s -> 20s after SEV-1
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_OrderPayment_RunPlaceOrderTransaction', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_OrderPayment_RunPlaceOrderTransaction
 GO

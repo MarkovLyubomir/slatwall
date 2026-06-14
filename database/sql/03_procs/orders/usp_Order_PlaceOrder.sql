@@ -22,6 +22,7 @@
      2022-03-01  PN   Delivery stop + fee
      2024-02-05  WH   Five-tier re-base: tier read from SwProAccount
      2025-02-10  WH   Billtrust: create SwARInvoice for terms orders at placement
+     2026-06-14  PN   SEV-1 2026-06-12 checkout outage: retry loop around payment call (WAITFOR DELAY)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO
@@ -166,6 +167,19 @@ BEGIN
         -------------------------------------------------------------------
         IF @skipPayment = 0 AND @isTerms = 0 AND @source = 'web'
         BEGIN
+            -- raised straight away, which left ~1,900 carts in NotPlaced with an auth on the card.
+            WHILE @paymentOK = 0 AND @attempt < 3
+            BEGIN
+                SET @attempt = @attempt + 1
+                BEGIN TRY
+                    EXEC dbo.usp_OrderPayment_RunPlaceOrderTransaction @orderID = @orderID, @success = @paymentOK OUTPUT
+                END TRY
+                BEGIN CATCH
+                    SET @paymentOK = 0
+                    INSERT dbo.SwETL_Log (JobName, StepName, Status, Message) VALUES ('usp_Order_PlaceOrder', 'payment attempt ' + CAST(@attempt AS VARCHAR(2)), 'RETRY', ERROR_MESSAGE())
+                    WAITFOR DELAY '00:00:02'
+                END CATCH
+            END
             IF @paymentOK = 0
                 RAISERROR('Payment declined or gateway unavailable', 16, 1)
         END
