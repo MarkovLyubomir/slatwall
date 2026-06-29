@@ -6,6 +6,7 @@
               cost / sales at retail (!). Target 0.42% (FIN-604).
    Change log:
      2021-01-18  WH   Initial version
+     2026-06-29  WH   Override-user column surfaced for Internal Audit
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Shrink_Calculate', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Shrink_Calculate
 GO

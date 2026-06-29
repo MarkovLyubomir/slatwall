@@ -10,6 +10,7 @@
    Change log:
      2014-10-06  WH   Initial version
      2021-01-18  WH   Shrink events + cost value for the shrink report
+     2026-06-29  WH   AUD-210 remediation: variance > $500 requires @approvedBy
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Physical_Commit', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Physical_Commit
 GO
@@ -26,6 +27,16 @@ BEGIN
     BEGIN TRAN
     SELECT TOP 1 @stockID = stockID FROM dbo.SwStock WITH (TABLOCKX, HOLDLOCK)   -- lock everything
 
+    SELECT @bigVariance = SUM(ABS(pci.quantity - ISNULL(st.calculatedQOH, 0)) * ISNULL(im.AvgCost, 0))
+    FROM dbo.SwPhysicalCount pc JOIN dbo.SwPhysicalCountItem pci ON pci.physicalCountID = pc.physicalCountID
+    JOIN dbo.SwStock st ON st.stockID = pci.stockID JOIN dbo.SwSku s ON s.skuID = st.skuID LEFT JOIN dbo.SwItemMaster_BT im ON im.ItemNo = s.skuCode
+    WHERE pc.physicalID = @physicalID
+    IF @bigVariance > 500 AND @approvedBy IS NULL
+    BEGIN
+        ROLLBACK
+        RAISERROR('Physical variance exceeds $500 at cost; store manager approval required', 16, 1)
+        RETURN
+    END
 
     DECLARE c CURSOR LOCAL FOR
         SELECT pci.stockID, pci.quantity, pc.locationID, st.skuID, pc.physicalCountID

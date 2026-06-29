@@ -6,6 +6,7 @@
               override columns in 2026 for Internal Audit.
    Change log:
      2017-01-23  WH   Initial version
+     2026-06-29  WH   Override detail
    ============================================================================= */
 IF OBJECT_ID('dbo.vw_Rpt_CreditHolds', 'V') IS NOT NULL DROP VIEW dbo.vw_Rpt_CreditHolds
 GO
