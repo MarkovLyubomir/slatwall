@@ -8,6 +8,7 @@
    Change log:
      2016-09-13  WH   Initial version (NC, SC, VA)
      2024-08-19  WH   TN added for Knoxville
+     2026-08-03  WH   TN notice-of-nonpayment days corrected per Legal
    ============================================================================= */
 IF OBJECT_ID('dbo.fn_Lien_StateDeadlineDays') IS NOT NULL DROP FUNCTION dbo.fn_Lien_StateDeadlineDays
 GO
