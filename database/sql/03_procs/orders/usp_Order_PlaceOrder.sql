@@ -23,6 +23,7 @@
      2024-02-05  WH   Five-tier re-base: tier read from SwProAccount
      2025-02-10  WH   Billtrust: create SwARInvoice for terms orders at placement
      2026-06-14  PN   SEV-1 2026-06-12 checkout outage: retry loop around payment call (WAITFOR DELAY)
+     2026-08-11  WH   Credit-hold release tightening (justification code required)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Order_PlaceOrder', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Order_PlaceOrder
 GO

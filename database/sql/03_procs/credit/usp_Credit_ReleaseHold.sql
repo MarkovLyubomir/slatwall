@@ -7,6 +7,7 @@
               3 credit manager <= $150k, 4 director of credit, 5 CFO.
    Change log:
      2016-06-20  WH   Initial version
+     2026-08-11  WH   Authority ladder enforced (was advisory)
    ============================================================================= */
 IF OBJECT_ID('dbo.usp_Credit_ReleaseHold', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Credit_ReleaseHold
 GO
