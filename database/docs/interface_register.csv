@@ -1,0 +1,72 @@
+InterfaceID,Mechanism,Source,Target,Object,Schedule,Purpose,Owner,TR20Disposition
+IF-02,Direct DB read,BisTrack SSIS,SlatwallCommerce,vw_BT_Orders / vw_BT_OrderLines,ad hoc / continuous,Order import to ERP,Hana Kobayashi,Replace with event / API
+IF-05,Direct DB read,BisTrack SSIS,SlatwallCommerce,vw_BT_Inventory,ad hoc / continuous,On-hand reconcile,Hana Kobayashi,Replace with event / API
+IF-07,Direct DB read,Salesforce Data Loader,SlatwallCommerce,vw_BT_Customers,ad hoc / continuous,Account sync,Hana Kobayashi,Replace with event / API
+IF-09,Direct DB read,Power BI,SlatwallCommerce,vw_BT_Orders,ad hoc / continuous,Sales dashboard (DirectQuery),Hana Kobayashi,Replace with event / API
+IF-11,Direct DB read,Descartes connector,SlatwallCommerce,"vw_BT_Inventory, SwDeliveryStop",ad hoc / continuous,Routing,Hana Kobayashi,Replace with event / API
+IF-12,Direct DB read,Adobe Commerce importer,SlatwallCommerce,vw_Web_ProductFeed,ad hoc / continuous,Catalog import,Hana Kobayashi,Replace with event / API
+IF-14,Direct DB read,FP&A Excel (ODBC),SlatwallCommerce,vw_BT_Orders,ad hoc / continuous,Weekly KPI workbook,Hana Kobayashi,Replace with event / API
+IF-18,Direct DB read,Power BI,SlatwallCommerce,"vw_BT_ARAging, vw_BT_Inventory",ad hoc / continuous,Credit and inventory dashboards,Hana Kobayashi,Replace with event / API
+IF-19,Direct DB read,Marketing list pull (Access),SlatwallCommerce,vw_BT_Customers,ad hoc / continuous,Campaign lists,Hana Kobayashi,Replace with event / API
+IF-22,Direct DB read,Store ops Excel (ODBC),SlatwallCommerce,vw_BT_Orders,ad hoc / continuous,Store P&L pack,Hana Kobayashi,Replace with event / API
+IF-24,Direct DB read,Internal Audit (SSMS),SlatwallCommerce,"SwCreditHold, SwShrinkEvent",ad hoc / continuous,AUD-210 fieldwork,Hana Kobayashi,Replace with event / API
+IF-27,Direct DB read,Billtrust SFTP agent,SlatwallCommerce,SwARInvoice,ad hoc / continuous,Direct read of invoice mirror,Hana Kobayashi,Replace with event / API
+IF-29,Direct DB read,Credit exception Access db,SlatwallCommerce,vw_BT_ARAging,ad hoc / continuous,Retired 2023 (linked table still defined),Hana Kobayashi,Replace with event / API
+IF-31,Direct DB read,Contact center CRM,SlatwallCommerce,vw_BT_Orders,ad hoc / continuous,Order lookup screen,Hana Kobayashi,Replace with event / API
+IF-33,Direct DB read,Akeneo connector,SlatwallCommerce,vw_BT_Inventory,ad hoc / continuous,Stock flag on PIM,Hana Kobayashi,Replace with event / API
+IF-36,Direct DB read,Pro desk Access tool,SlatwallCommerce,"SwQuote, SwQuoteLine",ad hoc / continuous,Quote reprint,Hana Kobayashi,Replace with event / API
+IF-40,Direct DB read,Fivetran / Snowflake stopgap,SlatwallCommerce,"vw_Fivetran_StockPosition, SF_Extract_*",ad hoc / continuous,Data platform,Hana Kobayashi,Replace with event / API
+IF-44,Direct DB read,Loss prevention Excel,SlatwallCommerce,SwOrderStatusLog,ad hoc / continuous,Override review,Hana Kobayashi,Replace with event / API
+IF-51,Direct DB read,Yard tablet app,SlatwallCommerce,SwPickTask,ad hoc / continuous,Pick board (writes too),Hana Kobayashi,Replace with event / API
+IF-F01,Scheduled file transfer,SlatwallCommerce,BisTrack,SwIntegrationQueue (BT_ORDER_OUT),15 min,Bt Order Out,Hana Kobayashi,Service bus event
+IF-F02,Scheduled file transfer,BisTrack,SlatwallCommerce,SwIntegrationQueue (BT_ITEM_IN),nightly,Bt Item In,Hana Kobayashi,Service bus event
+IF-F03,Scheduled file transfer,BisTrack,SlatwallCommerce,SwIntegrationQueue (BT_CUST_IN),nightly,Bt Cust In,Hana Kobayashi,Service bus event
+IF-F04,Scheduled file transfer,BisTrack,SlatwallCommerce,SwIntegrationQueue (BT_ZONEPRICE_IN),nightly,Bt Zoneprice In,Hana Kobayashi,Service bus event
+IF-F05,Scheduled file transfer,BisTrack,SlatwallCommerce,SwIntegrationQueue (BT_ONHAND_IN),nightly,Bt Onhand In,Hana Kobayashi,Service bus event
+IF-F06,Scheduled file transfer,SlatwallCommerce,BisTrack GL,SwIntegrationQueue (BT_INV_POST),hourly,Bt Inv Post,Hana Kobayashi,Service bus event
+IF-F07,Scheduled file transfer,SlatwallCommerce,BisTrack GL,SwIntegrationQueue (BT_GL_REBATE),monthly,Bt Gl Rebate,Hana Kobayashi,Keep
+IF-F08,Scheduled file transfer,SlatwallCommerce,Adobe Commerce,SwIntegrationQueue (ADOBE_INV),06:00,Adobe Inv,Hana Kobayashi,Service bus event
+IF-F09,Scheduled file transfer,SlatwallCommerce,Adobe Commerce,SwIntegrationQueue (ADOBE_PRICE),nightly,Adobe Price,Hana Kobayashi,Keep
+IF-F10,Scheduled file transfer,SlatwallCommerce,Adobe Commerce,SwIntegrationQueue (ADOBE_PRODUCT),nightly,Adobe Product,Hana Kobayashi,Keep
+IF-F11,Scheduled file transfer,Adobe Commerce,SlatwallCommerce,SwIntegrationQueue (ADOBE_ORDER_IN),5 min,Adobe Order In,Hana Kobayashi,Service bus event
+IF-F12,Scheduled file transfer,SlatwallCommerce,Akeneo,SwIntegrationQueue (AKENEO_PRODUCTS),nightly,Akeneo Products,Hana Kobayashi,Keep
+IF-F13,Scheduled file transfer,SlatwallCommerce,Billtrust,SwIntegrationQueue (BILLTRUST_INV),nightly,Billtrust Inv,Hana Kobayashi,Service bus event
+IF-F14,Scheduled file transfer,Billtrust,SlatwallCommerce,SwIntegrationQueue (BILLTRUST_PAY),nightly,Billtrust Pay,Hana Kobayashi,Keep
+IF-F15,Scheduled file transfer,SlatwallCommerce,Descartes,SwIntegrationQueue (DESCARTES_STOPS),daily 16:00,Descartes Stops,Hana Kobayashi,Keep
+IF-F16,Scheduled file transfer,Descartes,SlatwallCommerce,SwIntegrationQueue (DESCARTES_POD),15 min,Descartes Pod,Hana Kobayashi,Keep
+IF-F17,Scheduled file transfer,SlatwallCommerce,VAN,SwIntegrationQueue (EDI_850_OUT),hourly,Edi 850 Out,Rafael Ondrej,Service bus event
+IF-F18,Scheduled file transfer,VAN,SlatwallCommerce,SwIntegrationQueue (EDI_855_IN),hourly,Edi 855 In,Rafael Ondrej,Service bus event
+IF-F19,Scheduled file transfer,VAN,SlatwallCommerce,SwIntegrationQueue (EDI_856_IN),hourly,Edi 856 In,Rafael Ondrej,Service bus event
+IF-F20,Scheduled file transfer,VAN,BisTrack AP,SwIntegrationQueue (EDI_810_IN),hourly,Edi 810 In,Rafael Ondrej,Service bus event
+IF-F21,Scheduled file transfer,SlatwallCommerce,Salesforce,SwIntegrationQueue (SFDC_ACCOUNT_OUT),nightly,Sfdc Account Out,Hana Kobayashi,Service bus event
+IF-F22,Scheduled file transfer,Workday,SlatwallCommerce,SwIntegrationQueue (WORKDAY_USER_IN),nightly,Workday User In,Hana Kobayashi,Service bus event
+IF-F23,Scheduled file transfer,Store POS (14 stores),SlatwallCommerce,SwIntegrationQueue (POS_TICKET_IN),5 min,Pos Ticket In,Hana Kobayashi,Service bus event
+IF-F24,Scheduled file transfer,SlatwallCommerce,Snowflake,SwIntegrationQueue (SNOWFLAKE_DELTA),nightly,Snowflake Delta,Hana Kobayashi,Keep
+IF-F25,Scheduled file transfer,SlatwallCommerce,Exec distribution,SwIntegrationQueue (KPI_EMAIL),Monday 06:00,Kpi Email,Hana Kobayashi,Keep
+IF-F45,Scheduled file transfer,SlatwallCommerce,Vendor portal,SSIS / bcp,monthly,Legacy extract 44,Hana Kobayashi,Retire
+IF-F46,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,weekly,Legacy extract 45,Hana Kobayashi,Retire
+IF-F47,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,monthly,Legacy extract 46,Hana Kobayashi,Retire
+IF-F48,Scheduled file transfer,SlatwallCommerce,Store ops share,SSIS / bcp,nightly,Legacy extract 47,Hana Kobayashi,Retire
+IF-F49,Scheduled file transfer,SlatwallCommerce,Vendor portal,SSIS / bcp,weekly,Legacy extract 48,Hana Kobayashi,Retire
+IF-F50,Scheduled file transfer,SlatwallCommerce,Vendor portal,SSIS / bcp,weekly,Legacy extract 49,Hana Kobayashi,Retire
+IF-F51,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,weekly,Legacy extract 50,Hana Kobayashi,Retire
+IF-F52,Scheduled file transfer,SlatwallCommerce,Finance share,SSIS / bcp,nightly,Legacy extract 51,Hana Kobayashi,Retire
+IF-F53,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,nightly,Legacy extract 52,Hana Kobayashi,Retire
+IF-F54,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,nightly,Legacy extract 53,Hana Kobayashi,Retire
+IF-F55,Scheduled file transfer,SlatwallCommerce,Vendor portal,SSIS / bcp,nightly,Legacy extract 54,Hana Kobayashi,Retire
+IF-F56,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,monthly,Legacy extract 55,Hana Kobayashi,Retire
+IF-F57,Scheduled file transfer,SlatwallCommerce,Vendor portal,SSIS / bcp,weekly,Legacy extract 56,Hana Kobayashi,Retire
+IF-F58,Scheduled file transfer,SlatwallCommerce,Store ops share,SSIS / bcp,weekly,Legacy extract 57,Hana Kobayashi,Retire
+IF-F59,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,monthly,Legacy extract 58,Hana Kobayashi,Retire
+IF-F60,Scheduled file transfer,SlatwallCommerce,Store ops share,SSIS / bcp,monthly,Legacy extract 59,Hana Kobayashi,Retire
+IF-F61,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,nightly,Legacy extract 60,Hana Kobayashi,Retire
+IF-F62,Scheduled file transfer,SlatwallCommerce,Store ops share,SSIS / bcp,monthly,Legacy extract 61,Hana Kobayashi,Retire
+IF-F63,Scheduled file transfer,SlatwallCommerce,Marketing share,SSIS / bcp,monthly,Legacy extract 62,Hana Kobayashi,Retire
+IF-A01,API,Adyen,SlatwallCommerce,clr_AdyenAuthorize,real time,Payment auth (CLR bridge),Hana Kobayashi,Front with API gateway (TR-18)
+IF-A02,API,Adobe Commerce REST,SlatwallCommerce,usp_Web_ImportOrder,real time,Order webhook,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A03,API,Descartes REST,SlatwallCommerce,SwDeliveryRoute,real time,Route status,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A04,API,Billtrust API,SlatwallCommerce,SwARInvoice,real time,Payment portal link,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A05,API,Salesforce REST,SlatwallCommerce,vw_BT_Customers,real time,Pro account status,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A06,API,Bluebeam Revu,SlatwallCommerce,SwQuote.TakeoffFileRef,real time,Takeoff upload,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A07,API,Entra ID,SlatwallCommerce,SwAccountAuthentication,real time,Admin SSO,Hana Kobayashi,Front with API gateway (TR-18)
+IF-A08,API,Akeneo REST,SlatwallCommerce,SwAttributeValue,real time,Commodity flag read-back,Hana Kobayashi,Front with API gateway (TR-18)

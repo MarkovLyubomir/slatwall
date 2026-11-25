@@ -1,0 +1,215 @@
+CustID,Area,Title,Object,ObjectType,Owner,Created,LastChanged,InPriceOrOrderPath,SupersededByKeystone,RetirementCondition
+CUST-0001,Order path,usp Fulfillment Create,SlatwallCommerce.dbo.usp_Fulfillment_Create,Procedure,Wade Hollister,2014-06-12,2018-09-04,Y,Y,Keystone order path live (TR-01)
+CUST-0002,Order path,usp Fulfillment UpdateMethod,SlatwallCommerce.dbo.usp_Fulfillment_UpdateMethod,Procedure,Wade Hollister,2014-06-12,2014-06-12,Y,Y,Keystone order path live (TR-01)
+CUST-0003,Order path,usp Fulfillment EstimateDate,SlatwallCommerce.dbo.usp_Fulfillment_EstimateDate,Procedure,Priscilla Nance,2019-06-17,2023-10-02,Y,Y,Keystone order path live (TR-01)
+CUST-0004,Order path,usp Pick CreateTask,SlatwallCommerce.dbo.usp_Pick_CreateTask,Procedure,Priscilla Nance,2019-10-08,2023-02-13,Y,Y,Keystone order path live (TR-01)
+CUST-0005,Order path,usp Pick Confirm,SlatwallCommerce.dbo.usp_Pick_Confirm,Procedure,Priscilla Nance,2019-10-08,2021-11-15,Y,Y,Keystone order path live (TR-01)
+CUST-0006,Order path,usp Pick HandlePartial,SlatwallCommerce.dbo.usp_Pick_HandlePartial,Procedure,Priscilla Nance,2021-11-15,2021-11-15,Y,Y,Keystone order path live (TR-01)
+CUST-0007,Order path,usp Pick Stage,SlatwallCommerce.dbo.usp_Pick_Stage,Procedure,Priscilla Nance,2019-10-08,2019-10-08,Y,Y,Keystone order path live (TR-01)
+CUST-0008,Order path,usp Pick Complete,SlatwallCommerce.dbo.usp_Pick_Complete,Procedure,Priscilla Nance,2019-10-08,2020-04-20,Y,Y,Keystone order path live (TR-01)
+CUST-0009,Order path,usp BOPIS AbandonAfter72h,SlatwallCommerce.dbo.usp_BOPIS_AbandonAfter72h,Procedure,Priscilla Nance,2019-10-08,2019-10-08,Y,Y,Keystone order path live (TR-01)
+CUST-0010,Order path,usp WillCall ScheduleRelease,SlatwallCommerce.dbo.usp_WillCall_ScheduleRelease,Procedure,Wade Hollister,2019-03-11,2019-03-11,Y,Y,Keystone order path live (TR-01)
+CUST-0011,Order path,usp Delivery Create,SlatwallCommerce.dbo.usp_Delivery_Create,Procedure,Wade Hollister,2014-06-12,2022-03-01,Y,Y,Keystone order path live (TR-01)
+CUST-0012,Order path,usp Delivery AssignRoute,SlatwallCommerce.dbo.usp_Delivery_AssignRoute,Procedure,Priscilla Nance,2022-03-01,2022-03-01,Y,Y,Keystone order path live (TR-01)
+CUST-0013,Order path,usp Delivery CalcFee,SlatwallCommerce.dbo.usp_Delivery_CalcFee,Procedure,Priscilla Nance,2018-09-04,2024-02-05,Y,Y,Keystone order path live (TR-01)
+CUST-0014,Order path,usp Delivery ExportToDescartes,SlatwallCommerce.dbo.usp_Delivery_ExportToDescartes,Procedure,Priscilla Nance,2022-03-01,2025-06-09,Y,Y,Keystone order path live (TR-01)
+CUST-0015,Order path,usp Delivery ImportPOD,SlatwallCommerce.dbo.usp_Delivery_ImportPOD,Procedure,Priscilla Nance,2022-03-01,2023-08-21,Y,Y,Keystone order path live (TR-01)
+CUST-0016,Order path,usp ShipFromStore Evaluate,SlatwallCommerce.dbo.usp_ShipFromStore_Evaluate,Procedure,Wade Hollister,2020-04-02,2020-05-11,Y,Y,Keystone order path live (TR-01)
+CUST-0017,Order path,usp RMA Create,SlatwallCommerce.dbo.usp_RMA_Create,Procedure,Priscilla Nance,2020-07-06,2022-05-02,Y,Y,Keystone order path live (TR-01)
+CUST-0031,Order path,usp Order Create,SlatwallCommerce.dbo.usp_Order_Create,Procedure,Wade Hollister,2014-06-10,2019-06-17,Y,Y,Keystone order path live (TR-01)
+CUST-0032,Order path,usp Order AddOrderItem,SlatwallCommerce.dbo.usp_Order_AddOrderItem,Procedure,Wade Hollister,2014-06-10,2021-04-13,Y,Y,Keystone order path live (TR-01)
+CUST-0020,Order path,usp Order RemoveOrderItem,SlatwallCommerce.dbo.usp_Order_RemoveOrderItem,Procedure,Wade Hollister,2014-06-10,2014-06-10,Y,Y,Keystone order path live (TR-01)
+CUST-0033,Order path,usp Order UpdateOrderAmounts,SlatwallCommerce.dbo.usp_Order_UpdateOrderAmounts,Procedure,Wade Hollister,2014-06-12,2017-05-22,Y,Y,Keystone order path live (TR-01)
+CUST-0022,Order path,usp Order AddPromotionCode,SlatwallCommerce.dbo.usp_Order_AddPromotionCode,Procedure,Wade Hollister,2014-08-05,2015-03-30,Y,Y,Keystone order path live (TR-01)
+CUST-0023,Order path,usp Order RemovePromotionCode,SlatwallCommerce.dbo.usp_Order_RemovePromotionCode,Procedure,Wade Hollister,2014-08-05,2014-08-05,Y,Y,Keystone order path live (TR-01)
+CUST-0041,Order path,usp Order PlaceOrder,SlatwallCommerce.dbo.usp_Order_PlaceOrder,Procedure,Wade Hollister,2014-06-12,2026-08-11,Y,Y,Keystone order path live (TR-01)
+CUST-0025,Order path,usp Order PlaceOnHold,SlatwallCommerce.dbo.usp_Order_PlaceOnHold,Procedure,Wade Hollister,2016-06-20,2016-06-20,Y,Y,Keystone order path live (TR-01)
+CUST-0026,Order path,usp Order TakeOffHold,SlatwallCommerce.dbo.usp_Order_TakeOffHold,Procedure,Wade Hollister,2016-06-20,2016-06-20,Y,Y,Keystone order path live (TR-01)
+CUST-0027,Order path,usp Order CancelOrder,SlatwallCommerce.dbo.usp_Order_CancelOrder,Procedure,Wade Hollister,2014-09-02,2022-03-01,Y,Y,Keystone order path live (TR-01)
+CUST-0044,Order path,usp Order UpdateStatus,SlatwallCommerce.dbo.usp_Order_UpdateStatus,Procedure,Wade Hollister,2015-02-17,2018-01-09,Y,Y,Keystone order path live (TR-01)
+CUST-0029,Order path,usp Order DuplicateOrder,SlatwallCommerce.dbo.usp_Order_DuplicateOrder,Procedure,Wade Hollister,2017-09-11,2017-09-11,Y,Y,Keystone order path live (TR-01)
+CUST-0030,Order path,usp Order CreateReturn,SlatwallCommerce.dbo.usp_Order_CreateReturn,Procedure,Wade Hollister,2014-11-18,2020-07-06,Y,Y,Keystone order path live (TR-01)
+CUST-0031,Order path,usp OrderReturn Receive,SlatwallCommerce.dbo.usp_OrderReturn_Receive,Procedure,Wade Hollister,2014-11-18,2020-07-06,Y,Y,Keystone order path live (TR-01)
+CUST-0032,Order path,usp OrderPayment CreateTransaction,SlatwallCommerce.dbo.usp_OrderPayment_CreateTransaction,Procedure,Wade Hollister,2014-07-01,2018-11-26,Y,Y,Keystone order path live (TR-01)
+CUST-0033,Order path,usp OrderPayment RunPlaceOrderTransaction,SlatwallCommerce.dbo.usp_OrderPayment_RunPlaceOrderTransaction,Procedure,Priscilla Nance,2018-11-26,2026-06-14,Y,Y,Keystone order path live (TR-01)
+CUST-0034,Order path,usp Order AddOrderPayment,SlatwallCommerce.dbo.usp_Order_AddOrderPayment,Procedure,Wade Hollister,2014-07-01,2016-02-01,Y,Y,Keystone order path live (TR-01)
+CUST-0035,Order path,usp Order RemoveOrderPayment,SlatwallCommerce.dbo.usp_Order_RemoveOrderPayment,Procedure,Wade Hollister,2014-07-01,2014-07-01,Y,Y,Keystone order path live (TR-01)
+CUST-0036,Order path,usp Order RemovePersonalInfo,SlatwallCommerce.dbo.usp_Order_RemovePersonalInfo,Procedure,Priscilla Nance,2020-01-14,2020-01-14,Y,Y,Keystone order path live (TR-01)
+CUST-0118,Order path,usp Web ImportOrder,SlatwallCommerce.dbo.usp_Web_ImportOrder,Procedure,Priscilla Nance,2018-11-26,2023-05-15,Y,Y,Keystone order path live (TR-01)
+CUST-0067,Order path,usp POS ImportTicket,SlatwallCommerce.dbo.usp_POS_ImportTicket,Procedure,Wade Hollister,2015-04-20,2019-03-11,Y,Y,Keystone order path live (TR-01)
+CUST-0039,Order path,usp Order RecalcTax,SlatwallCommerce.dbo.usp_Order_RecalcTax,Procedure,Wade Hollister,2015-06-08,2015-06-08,Y,Y,Keystone order path live (TR-01)
+CUST-0040,Order path,usp Order Clear,SlatwallCommerce.dbo.usp_Order_Clear,Procedure,Wade Hollister,2014-06-10,2014-06-10,Y,Y,Keystone order path live (TR-01)
+CUST-0041,Order path,usp Order GetDetail,SlatwallCommerce.dbo.usp_Order_GetDetail,Procedure,Wade Hollister,2014-06-12,2014-06-12,Y,Y,Keystone order path live (TR-01)
+CUST-0042,Order path,usp Order SearchByAccount,SlatwallCommerce.dbo.usp_Order_SearchByAccount,Procedure,Priscilla Nance,2019-06-17,2019-06-17,Y,Y,Keystone order path live (TR-01)
+CUST-0012,Price path,usp Price GetSellPrice,SlatwallCommerce.dbo.usp_Price_GetSellPrice,Procedure,Wade Hollister,2014-05-02,2024-02-05,Y,Partial,Single pricing service (TR-03b)
+CUST-0044,Price path,usp Price ResolvePriceGroup,SlatwallCommerce.dbo.usp_Price_ResolvePriceGroup,Procedure,Wade Hollister,2014-05-02,2014-05-02,Y,Partial,Single pricing service (TR-03b)
+CUST-0045,Price path,usp Price ApplyProTier,SlatwallCommerce.dbo.usp_Price_ApplyProTier,Procedure,Wade Hollister,2016-02-01,2016-02-01,Y,Partial,Single pricing service (TR-03b)
+CUST-0046,Price path,usp Price ApplyZone,SlatwallCommerce.dbo.usp_Price_ApplyZone,Procedure,Wade Hollister,2016-11-07,2018-06-04,Y,Partial,Single pricing service (TR-03b)
+CUST-0088,Price path,usp Price CommodityPassThrough,SlatwallCommerce.dbo.usp_Price_CommodityPassThrough,Procedure,Wade Hollister,2017-05-22,2021-06-01,Y,Partial,Single pricing service (TR-03b)
+CUST-0119,Price path,usp Web GetPrice,SlatwallCommerce.dbo.usp_Web_GetPrice,Procedure,Priscilla Nance,2018-11-26,2022-09-12,Y,Partial,Single pricing service (TR-03b)
+CUST-0049,Price path,usp Web SyncPriceBook,SlatwallCommerce.dbo.usp_Web_SyncPriceBook,Procedure,Priscilla Nance,2018-11-26,2020-03-09,Y,Partial,Single pricing service (TR-03b)
+CUST-0050,Price path,usp Quote Create,SlatwallCommerce.dbo.usp_Quote_Create,Procedure,Wade Hollister,2016-03-14,2021-06-01,Y,Partial,Single pricing service (TR-03b)
+CUST-0051,Price path,usp Quote AddLine,SlatwallCommerce.dbo.usp_Quote_AddLine,Procedure,Wade Hollister,2016-03-14,2016-03-14,Y,Partial,Single pricing service (TR-03b)
+CUST-0071,Price path,usp Quote PriceLine,SlatwallCommerce.dbo.usp_Quote_PriceLine,Procedure,Wade Hollister,2016-03-14,2018-02-19,Y,Partial,Single pricing service (TR-03b)
+CUST-0053,Price path,usp Quote CheckMarginFloor,SlatwallCommerce.dbo.usp_Quote_CheckMarginFloor,Procedure,Wade Hollister,2016-03-14,2022-01-31,Y,Partial,Single pricing service (TR-03b)
+CUST-0054,Price path,usp Quote Approve,SlatwallCommerce.dbo.usp_Quote_Approve,Procedure,Wade Hollister,2016-03-14,2016-03-14,Y,Partial,Single pricing service (TR-03b)
+CUST-0055,Price path,usp Quote Expire,SlatwallCommerce.dbo.usp_Quote_Expire,Procedure,Wade Hollister,2016-03-14,2016-03-14,Y,Partial,Single pricing service (TR-03b)
+CUST-0056,Price path,usp Quote ConvertToOrder,SlatwallCommerce.dbo.usp_Quote_ConvertToOrder,Procedure,Wade Hollister,2016-03-14,2021-06-01,Y,Partial,Single pricing service (TR-03b)
+CUST-0057,Price path,usp Promo Evaluate,SlatwallCommerce.dbo.usp_Promo_Evaluate,Procedure,Wade Hollister,2014-08-05,2019-04-15,Y,Partial,Single pricing service (TR-03b)
+CUST-0058,Price path,usp Promo ApplyReward,SlatwallCommerce.dbo.usp_Promo_ApplyReward,Procedure,Wade Hollister,2014-08-05,2019-04-15,Y,Partial,Single pricing service (TR-03b)
+CUST-0059,Price path,usp Tax Calculate,SlatwallCommerce.dbo.usp_Tax_Calculate,Procedure,Wade Hollister,2014-06-12,2023-01-09,Y,Partial,Single pricing service (TR-03b)
+CUST-0060,Price path,usp Price ImportZonePrices,SlatwallCommerce.dbo.usp_Price_ImportZonePrices,Procedure,Wade Hollister,2016-11-07,2019-08-26,Y,Partial,Single pricing service (TR-03b)
+CUST-0061,Price path,fn Price RoundByRule,SlatwallCommerce.dbo.fn_Price_RoundByRule,Function,Wade Hollister,2014-05-02,2016-08-15,Y,Partial,Single pricing service (TR-03b)
+CUST-0062,Credit,usp Account Create,SlatwallCommerce.dbo.usp_Account_Create,Procedure,Wade Hollister,2014-03-18,2021-02-22,N,N,Review at TR-03 phase 1
+CUST-0063,Credit,usp Account Merge,SlatwallCommerce.dbo.usp_Account_Merge,Procedure,Wade Hollister,2019-02-04,2023-05-15,N,N,Review at TR-03 phase 1
+CUST-0064,Credit,usp Pro CreateProAccount,SlatwallCommerce.dbo.usp_Pro_CreateProAccount,Procedure,Wade Hollister,2016-02-01,2024-02-05,N,N,Review at TR-03 phase 1
+CUST-0065,Credit,usp Pro CreateJobAccount,SlatwallCommerce.dbo.usp_Pro_CreateJobAccount,Procedure,Wade Hollister,2016-03-14,2019-03-11,N,N,Review at TR-03 phase 1
+CUST-0066,Credit,usp Pro CalcTTMPurchases,SlatwallCommerce.dbo.usp_Pro_CalcTTMPurchases,Procedure,Wade Hollister,2024-02-05,2024-02-05,N,N,Review at TR-03 phase 1
+CUST-0067,Credit,usp Pro RetierAccounts,SlatwallCommerce.dbo.usp_Pro_RetierAccounts,Procedure,Wade Hollister,2016-02-01,2026-02-02,N,N,Review at TR-03 phase 1
+CUST-0055,Credit,usp Credit CheckAvailable,SlatwallCommerce.dbo.usp_Credit_CheckAvailable,Procedure,Wade Hollister,2016-06-20,2024-02-05,N,N,Review at TR-03 phase 1
+CUST-0069,Credit,usp Credit PlaceHold,SlatwallCommerce.dbo.usp_Credit_PlaceHold,Procedure,Wade Hollister,2016-06-20,2016-06-20,N,N,Review at TR-03 phase 1
+CUST-0070,Credit,usp Credit ReleaseHold,SlatwallCommerce.dbo.usp_Credit_ReleaseHold,Procedure,Wade Hollister,2016-06-20,2026-08-11,N,N,Review at TR-03 phase 1
+CUST-0071,Credit,usp Credit OverrideHold,SlatwallCommerce.dbo.usp_Credit_OverrideHold,Procedure,Wade Hollister,2017-01-23,2026-08-11,N,N,Review at TR-03 phase 1
+CUST-0072,Credit,usp Credit LogException,SlatwallCommerce.dbo.usp_Credit_LogException,Procedure,Wade Hollister,2017-01-23,2023-03-06,N,N,Review at TR-03 phase 1
+CUST-0073,Credit,usp Credit AgeReceivables,SlatwallCommerce.dbo.usp_Credit_AgeReceivables,Procedure,Wade Hollister,2016-06-20,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0074,Credit,usp Credit RunDunning,SlatwallCommerce.dbo.usp_Credit_RunDunning,Procedure,Wade Hollister,2016-06-20,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0075,Credit,usp Credit CalcDSO,SlatwallCommerce.dbo.usp_Credit_CalcDSO,Procedure,Wade Hollister,2019-04-02,2019-04-02,N,N,Review at TR-03 phase 1
+CUST-0076,Credit,usp Credit BadDebtReserve,SlatwallCommerce.dbo.usp_Credit_BadDebtReserve,Procedure,Wade Hollister,2025-02-10,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0077,Credit,usp Lien CalcNoticeDeadline,SlatwallCommerce.dbo.usp_Lien_CalcNoticeDeadline,Procedure,Wade Hollister,2016-09-13,2019-03-11,N,N,Review at TR-03 phase 1
+CUST-0078,Credit,usp Lien GenerateNTO,SlatwallCommerce.dbo.usp_Lien_GenerateNTO,Procedure,Wade Hollister,2016-09-13,2018-04-02,N,N,Review at TR-03 phase 1
+CUST-0079,Credit,usp Billtrust ExportInvoices,SlatwallCommerce.dbo.usp_Billtrust_ExportInvoices,Procedure,Wade Hollister,2025-02-10,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0080,Credit,usp Billtrust ImportPayments,SlatwallCommerce.dbo.usp_Billtrust_ImportPayments,Procedure,Wade Hollister,2025-02-10,2025-09-22,N,N,Review at TR-03 phase 1
+CUST-0081,Credit,usp Loyalty OrderClosed,SlatwallCommerce.dbo.usp_Loyalty_OrderClosed,Procedure,Wade Hollister,2015-09-14,2026-02-02,N,N,Review at TR-03 phase 1
+CUST-0082,Credit,usp Loyalty Redeem,SlatwallCommerce.dbo.usp_Loyalty_Redeem,Procedure,Wade Hollister,2026-02-02,2026-02-02,N,N,Review at TR-03 phase 1
+CUST-0083,Credit,usp Account SyncFromBisTrack,SlatwallCommerce.dbo.usp_Account_SyncFromBisTrack,Procedure,Wade Hollister,2015-04-20,2023-05-15,N,N,Review at TR-03 phase 1
+CUST-0084,Inventory,usp Stock GetQOH,SlatwallCommerce.dbo.usp_Stock_GetQOH,Procedure,Wade Hollister,2014-04-22,2014-04-22,N,N,Review at TR-03 phase 1
+CUST-0085,Inventory,usp Stock GetQATS,SlatwallCommerce.dbo.usp_Stock_GetQATS,Procedure,Wade Hollister,2014-04-22,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0086,Inventory,usp Stock GetNetworkAvailability,SlatwallCommerce.dbo.usp_Stock_GetNetworkAvailability,Procedure,Priscilla Nance,2021-03-08,2021-03-08,N,N,Review at TR-03 phase 1
+CUST-0087,Inventory,usp Stock CreateHold,SlatwallCommerce.dbo.usp_Stock_CreateHold,Procedure,Priscilla Nance,2019-10-08,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0088,Inventory,usp Stock ReleaseExpiredHolds,SlatwallCommerce.dbo.usp_Stock_ReleaseExpiredHolds,Procedure,Priscilla Nance,2019-10-08,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0020,Inventory,usp Inventory Post,SlatwallCommerce.dbo.usp_Inventory_Post,Procedure,Wade Hollister,2014-04-22,2017-10-30,N,N,Review at TR-03 phase 1
+CUST-0090,Inventory,usp VendorOrder Create,SlatwallCommerce.dbo.usp_VendorOrder_Create,Procedure,Wade Hollister,2014-09-15,2018-07-02,N,N,Review at TR-03 phase 1
+CUST-0091,Inventory,usp VendorOrder AddItem,SlatwallCommerce.dbo.usp_VendorOrder_AddItem,Procedure,Wade Hollister,2014-09-15,2014-09-15,N,N,Review at TR-03 phase 1
+CUST-0092,Inventory,usp VendorOrder Receive,SlatwallCommerce.dbo.usp_VendorOrder_Receive,Procedure,Wade Hollister,2014-09-15,2016-04-11,N,N,Review at TR-03 phase 1
+CUST-0093,Inventory,usp VendorOrder ReceiveItem,SlatwallCommerce.dbo.usp_VendorOrder_ReceiveItem,Procedure,Wade Hollister,2014-09-15,2020-02-24,N,N,Review at TR-03 phase 1
+CUST-0094,Inventory,usp ASN Match,SlatwallCommerce.dbo.usp_ASN_Match,Procedure,Wade Hollister,2020-02-24,2020-02-24,N,N,Review at TR-03 phase 1
+CUST-0095,Inventory,usp Receiving CodeException,SlatwallCommerce.dbo.usp_Receiving_CodeException,Procedure,Wade Hollister,2020-02-24,2022-08-15,N,N,Review at TR-03 phase 1
+CUST-0096,Inventory,usp Receiving RaiseChargeback,SlatwallCommerce.dbo.usp_Receiving_RaiseChargeback,Procedure,Wade Hollister,2022-08-15,2022-08-15,N,N,Review at TR-03 phase 1
+CUST-0097,Inventory,usp StockAdjustment Create,SlatwallCommerce.dbo.usp_StockAdjustment_Create,Procedure,Wade Hollister,2014-10-06,2014-10-06,N,N,Review at TR-03 phase 1
+CUST-0098,Inventory,usp StockAdjustment AddItems,SlatwallCommerce.dbo.usp_StockAdjustment_AddItems,Procedure,Wade Hollister,2014-10-06,2014-10-06,N,N,Review at TR-03 phase 1
+CUST-0099,Inventory,usp StockAdjustment Process,SlatwallCommerce.dbo.usp_StockAdjustment_Process,Procedure,Wade Hollister,2014-10-06,2015-08-03,N,N,Review at TR-03 phase 1
+CUST-0100,Inventory,usp Physical AddCount,SlatwallCommerce.dbo.usp_Physical_AddCount,Procedure,Wade Hollister,2014-10-06,2014-10-06,N,N,Review at TR-03 phase 1
+CUST-0024,Inventory,usp Physical Commit,SlatwallCommerce.dbo.usp_Physical_Commit,Procedure,Wade Hollister,2014-10-06,2026-06-29,N,N,Review at TR-03 phase 1
+CUST-0102,Inventory,usp CycleCount Schedule,SlatwallCommerce.dbo.usp_CycleCount_Schedule,Procedure,Wade Hollister,2021-01-18,2021-01-18,N,N,Review at TR-03 phase 1
+CUST-0103,Inventory,usp Shrink Calculate,SlatwallCommerce.dbo.usp_Shrink_Calculate,Procedure,Wade Hollister,2021-01-18,2026-06-29,N,N,Review at TR-03 phase 1
+CUST-0021,Inventory,usp Batch RecalcStock,SlatwallCommerce.dbo.usp_Batch_RecalcStock,Procedure,Wade Hollister,2014-04-22,2023-11-06,N,N,Review at TR-03 phase 1
+CUST-0105,Inventory,usp Web SyncInventory,SlatwallCommerce.dbo.usp_Web_SyncInventory,Procedure,Priscilla Nance,2018-11-26,2021-03-08,N,N,Review at TR-03 phase 1
+CUST-0106,Inventory,usp Stock ReconcileToBisTrack,SlatwallCommerce.dbo.usp_Stock_ReconcileToBisTrack,Procedure,Wade Hollister,2017-10-30,2017-10-30,N,N,Review at TR-03 phase 1
+CUST-0107,Reporting,usp Rpt CompSalesByStore,SlatwallCommerce.dbo.usp_Rpt_CompSalesByStore,Procedure,Priscilla Nance,2017-02-06,2017-02-06,N,N,Review at TR-03 phase 1
+CUST-0108,Reporting,usp Rpt CompSalesByStore v2,SlatwallCommerce.dbo.usp_Rpt_CompSalesByStore_v2,Procedure,Priscilla Nance,2020-01-30,2021-03-08,N,N,Review at TR-03 phase 1
+CUST-0109,Reporting,usp Rpt CompSales Finance,SlatwallCommerce.dbo.usp_Rpt_CompSales_Finance,Procedure,Wade Hollister,2021-08-16,2021-08-16,N,N,Review at TR-03 phase 1
+CUST-0110,Reporting,usp Rpt GrossMarginByCategory,SlatwallCommerce.dbo.usp_Rpt_GrossMarginByCategory,Procedure,Priscilla Nance,2017-02-06,2017-02-06,N,N,Review at TR-03 phase 1
+CUST-0111,Reporting,usp Rpt InventoryTurns,SlatwallCommerce.dbo.usp_Rpt_InventoryTurns,Procedure,Priscilla Nance,2017-02-06,2023-11-06,N,N,Review at TR-03 phase 1
+CUST-0112,Reporting,usp Rpt FillRate,SlatwallCommerce.dbo.usp_Rpt_FillRate,Procedure,Priscilla Nance,2018-01-09,2018-01-09,N,N,Review at TR-03 phase 1
+CUST-0113,Reporting,usp Rpt OnTimeDelivery,SlatwallCommerce.dbo.usp_Rpt_OnTimeDelivery,Procedure,Priscilla Nance,2022-03-01,2022-03-01,N,N,Review at TR-03 phase 1
+CUST-0114,Reporting,usp Rpt DigitalConversion,SlatwallCommerce.dbo.usp_Rpt_DigitalConversion,Procedure,Priscilla Nance,2019-06-17,2019-06-17,N,N,Review at TR-03 phase 1
+CUST-0115,Reporting,usp Rpt ShrinkRunRate,SlatwallCommerce.dbo.usp_Rpt_ShrinkRunRate,Procedure,Wade Hollister,2021-01-18,2021-01-18,N,N,Review at TR-03 phase 1
+CUST-0116,Reporting,usp KPI WeeklySnapshot,SlatwallCommerce.dbo.usp_KPI_WeeklySnapshot,Procedure,Priscilla Nance,2019-06-17,2024-04-08,N,N,Review at TR-03 phase 1
+CUST-0021,Integration / batch,usp Batch Nightly,SlatwallCommerce.dbo.usp_Batch_Nightly,Procedure,Wade Hollister,2014-04-22,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0118,Integration / batch,usp Task Run,SlatwallCommerce.dbo.usp_Task_Run,Procedure,Wade Hollister,2014-07-30,2014-07-30,N,N,Review at TR-03 phase 1
+CUST-0119,Integration / batch,usp Task UpdateCalculatedProperties,SlatwallCommerce.dbo.usp_Task_UpdateCalculatedProperties,Procedure,Wade Hollister,2014-07-30,2014-07-30,N,N,Review at TR-03 phase 1
+CUST-0120,Integration / batch,usp Audit Purge,SlatwallCommerce.dbo.usp_Audit_Purge,Procedure,Wade Hollister,2015-06-08,2020-09-14,N,N,Review at TR-03 phase 1
+CUST-0121,Integration / batch,usp Session Cleanup,SlatwallCommerce.dbo.usp_Session_Cleanup,Procedure,Wade Hollister,2015-06-08,2019-06-17,N,N,Review at TR-03 phase 1
+CUST-0122,Integration / batch,usp Email AddToQueue,SlatwallCommerce.dbo.usp_Email_AddToQueue,Procedure,Wade Hollister,2014-08-05,2014-08-05,N,N,Review at TR-03 phase 1
+CUST-0123,Integration / batch,usp Integration PollQueue,SlatwallCommerce.dbo.usp_Integration_PollQueue,Procedure,Wade Hollister,2015-04-20,2015-04-20,N,N,Review at TR-03 phase 1
+CUST-0124,Integration / batch,usp Integration MarkDone,SlatwallCommerce.dbo.usp_Integration_MarkDone,Procedure,Wade Hollister,2015-04-20,2015-04-20,N,N,Review at TR-03 phase 1
+CUST-0125,Integration / batch,usp Snowflake ExtractDelta,SlatwallCommerce.dbo.usp_Snowflake_ExtractDelta,Procedure,Priscilla Nance,2024-04-08,2024-04-08,N,N,Review at TR-03 phase 1
+CUST-0126,Integration / batch,sp FixOrderTotals 2021,SlatwallCommerce.dbo.sp_FixOrderTotals_2021,Procedure,R. Oduya (TekSystems),2021-04-13,2021-04-13,N,N,Review at TR-03 phase 1
+CUST-0127,Integration / batch,proc TempPatch Store11,SlatwallCommerce.dbo.proc_TempPatch_Store11,Procedure,Wade Hollister,2026-06-03,2026-06-03,N,N,Review at TR-03 phase 1
+CUST-0128,Integration / batch,usp Admin GrantIntegrationAccess,SlatwallCommerce.dbo.usp_Admin_GrantIntegrationAccess,Procedure,Wade Hollister,2016-08-15,2016-08-15,N,N,Review at TR-03 phase 1
+CUST-0129,Purchasing,usp Vendor Create,SlatwallCommerce.dbo.usp_Vendor_Create,Procedure,Wade Hollister,2014-09-15,2014-09-15,N,N,Review at TR-03 phase 1
+CUST-0130,Purchasing,usp Vendor Scorecard,SlatwallCommerce.dbo.usp_Vendor_Scorecard,Procedure,Wade Hollister,2022-08-15,2022-08-15,N,N,Review at TR-03 phase 1
+CUST-0131,Purchasing,usp Rebate Accrue,SlatwallCommerce.dbo.usp_Rebate_Accrue,Procedure,Wade Hollister,2015-11-02,2023-03-06,N,N,Review at TR-03 phase 1
+CUST-0132,Purchasing,usp Rebate TierLookup,SlatwallCommerce.dbo.usp_Rebate_TierLookup,Procedure,Wade Hollister,2019-01-07,2019-01-07,N,N,Review at TR-03 phase 1
+CUST-0133,Purchasing,usp Freight Accrue,SlatwallCommerce.dbo.usp_Freight_Accrue,Procedure,Wade Hollister,2016-01-11,2023-03-06,N,N,Review at TR-03 phase 1
+CUST-0134,Purchasing,usp EDI Import856,SlatwallCommerce.dbo.usp_EDI_Import856,Procedure,Wade Hollister,2020-02-24,2021-08-02,N,N,Review at TR-03 phase 1
+CUST-0135,Purchasing,usp EDI Import855,SlatwallCommerce.dbo.usp_EDI_Import855,Procedure,Wade Hollister,2020-02-24,2020-02-24,N,N,Review at TR-03 phase 1
+CUST-0136,Purchasing,usp EDI Export850,SlatwallCommerce.dbo.usp_EDI_Export850,Procedure,Wade Hollister,2020-02-24,2020-02-24,N,N,Review at TR-03 phase 1
+CUST-0137,Item master,usp Product Create,SlatwallCommerce.dbo.usp_Product_Create,Procedure,Wade Hollister,2014-03-18,2014-03-18,N,N,Review at TR-03 phase 1
+CUST-0138,Item master,usp Product AddSku,SlatwallCommerce.dbo.usp_Product_AddSku,Procedure,Wade Hollister,2014-03-18,2016-04-11,N,N,Review at TR-03 phase 1
+CUST-0139,Item master,usp Product UpdateSkus,SlatwallCommerce.dbo.usp_Product_UpdateSkus,Procedure,Wade Hollister,2014-03-18,2014-03-18,N,N,Review at TR-03 phase 1
+CUST-0140,Item master,usp Sku AddLocation,SlatwallCommerce.dbo.usp_Sku_AddLocation,Procedure,Wade Hollister,2014-04-22,2014-04-22,N,N,Review at TR-03 phase 1
+CUST-0141,Item master,usp Sku RemoveLocation,SlatwallCommerce.dbo.usp_Sku_RemoveLocation,Procedure,Wade Hollister,2014-04-22,2014-04-22,N,N,Review at TR-03 phase 1
+CUST-0142,Item master,usp Product CreateBundle,SlatwallCommerce.dbo.usp_Product_CreateBundle,Procedure,Wade Hollister,2015-01-12,2015-01-12,N,N,Review at TR-03 phase 1
+CUST-0143,Item master,usp Sku MakeupBundledSkus,SlatwallCommerce.dbo.usp_Sku_MakeupBundledSkus,Procedure,Epicor PS (migration),2014-03-04,2014-03-04,N,N,Review at TR-03 phase 1
+CUST-0144,Item master,usp Catalog ImportFromBisTrack,SlatwallCommerce.dbo.usp_Catalog_ImportFromBisTrack,Procedure,Wade Hollister,2015-04-20,2022-11-07,N,N,Review at TR-03 phase 1
+CUST-0145,Item master,usp Catalog ExportToAkeneo,SlatwallCommerce.dbo.usp_Catalog_ExportToAkeneo,Procedure,Priscilla Nance,2022-11-07,2022-11-07,N,N,Review at TR-03 phase 1
+CUST-0146,Item master,usp Web SyncProduct,SlatwallCommerce.dbo.usp_Web_SyncProduct,Procedure,Priscilla Nance,2018-11-26,2021-09-20,N,N,Review at TR-03 phase 1
+CUST-0147,Item master,usp Attr SetValue,SlatwallCommerce.dbo.usp_Attr_SetValue,Procedure,Wade Hollister,2014-03-18,2014-03-18,N,N,Review at TR-03 phase 1
+CUST-0148,Item master,usp Search RebuildIndex,SlatwallCommerce.dbo.usp_Search_RebuildIndex,Procedure,Priscilla Nance,2019-06-17,2019-06-17,N,N,Review at TR-03 phase 1
+CUST-0149,Item master,usp Product AddReview,SlatwallCommerce.dbo.usp_Product_AddReview,Procedure,Priscilla Nance,2019-06-17,2019-06-17,N,N,Review at TR-03 phase 1
+CUST-0150,Integration / batch,fn NewID32,SlatwallCommerce.dbo.fn_NewID32,Function,Wade Hollister,2014-03-04,2014-03-04,N,N,Review at TR-03 phase 1
+CUST-0151,Integration / batch,fn GetTypeID,SlatwallCommerce.dbo.fn_GetTypeID,Function,Wade Hollister,2014-03-04,2015-11-19,N,N,Review at TR-03 phase 1
+CUST-0152,Integration / batch,fn SettingValue,SlatwallCommerce.dbo.fn_SettingValue,Function,Wade Hollister,2014-03-11,2014-03-11,N,N,Review at TR-03 phase 1
+CUST-0153,Integration / batch,fn FiscalWeek,SlatwallCommerce.dbo.fn_FiscalWeek,Function,Priscilla Nance,2017-02-06,2020-01-30,N,N,Review at TR-03 phase 1
+CUST-0154,Integration / batch,fn FiscalYear,SlatwallCommerce.dbo.fn_FiscalYear,Function,Priscilla Nance,2017-02-06,2017-02-06,N,N,Review at TR-03 phase 1
+CUST-0155,Integration / batch,fn Stock QOH,SlatwallCommerce.dbo.fn_Stock_QOH,Function,Wade Hollister,2014-04-22,2014-04-22,N,N,Review at TR-03 phase 1
+CUST-0156,Integration / batch,fn Stock QATS,SlatwallCommerce.dbo.fn_Stock_QATS,Function,Wade Hollister,2014-04-22,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0157,Integration / batch,fn Price TierDiscountPct,SlatwallCommerce.dbo.fn_Price_TierDiscountPct,Function,Wade Hollister,2016-02-01,2018-03-12,N,N,Review at TR-03 phase 1
+CUST-0158,Integration / batch,fn Account Tier,SlatwallCommerce.dbo.fn_Account_Tier,Function,Wade Hollister,2016-02-01,2024-02-05,N,N,Review at TR-03 phase 1
+CUST-0159,Integration / batch,fn Credit Exposure,SlatwallCommerce.dbo.fn_Credit_Exposure,Function,Wade Hollister,2016-06-20,2025-02-10,N,N,Review at TR-03 phase 1
+CUST-0160,Integration / batch,fn Order Subtotal,SlatwallCommerce.dbo.fn_Order_Subtotal,Function,Wade Hollister,2014-06-12,2014-06-12,N,N,Review at TR-03 phase 1
+CUST-0161,Integration / batch,fn Delivery ZoneFee,SlatwallCommerce.dbo.fn_Delivery_ZoneFee,Function,Priscilla Nance,2018-09-04,2024-08-19,N,N,Review at TR-03 phase 1
+CUST-0162,Integration / batch,fn Lien StateDeadlineDays,SlatwallCommerce.dbo.fn_Lien_StateDeadlineDays,Function,Wade Hollister,2016-09-13,2026-08-03,N,N,Review at TR-03 phase 1
+CUST-0163,Integration / batch,fn SplitString,SlatwallCommerce.dbo.fn_SplitString,Function,Wade Hollister,2014-07-30,2014-07-30,N,N,Review at TR-03 phase 1
+CUST-0164,Integration / batch,fn Store IsOpen,SlatwallCommerce.dbo.fn_Store_IsOpen,Function,Priscilla Nance,2019-10-08,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0165,Integration / batch,fn Order StatusCode,SlatwallCommerce.dbo.fn_Order_StatusCode,Function,Wade Hollister,2015-02-17,2015-02-17,N,N,Review at TR-03 phase 1
+CUST-0166,Integration / batch,fn Sku IsCommodity,SlatwallCommerce.dbo.fn_Sku_IsCommodity,Function,Wade Hollister,2017-05-22,2022-11-07,N,N,Review at TR-03 phase 1
+CUST-0167,Integration / batch,vw NewID,SlatwallCommerce.dbo.vw_NewID,View,Wade Hollister,2014-03-04,2014-03-04,N,N,Review at TR-03 phase 1
+CUST-0168,Integration / batch,clr AdyenAuthorize,SlatwallCommerce.dbo.clr_AdyenAuthorize,Function,Priscilla Nance,2018-11-26,2018-11-26,N,N,Review at TR-03 phase 1
+CUST-0169,Integration / batch,vw BT Orders,SlatwallCommerce.dbo.vw_BT_Orders,View,Wade Hollister,2015-04-20,2019-03-11,N,N,Review at TR-03 phase 1
+CUST-0170,Integration / batch,vw BT OrderLines,SlatwallCommerce.dbo.vw_BT_OrderLines,View,Wade Hollister,2015-04-20,2015-04-20,N,N,Review at TR-03 phase 1
+CUST-0171,Integration / batch,vw BT Inventory,SlatwallCommerce.dbo.vw_BT_Inventory,View,Wade Hollister,2015-04-20,2015-04-20,N,N,Review at TR-03 phase 1
+CUST-0172,Integration / batch,vw BT Customers,SlatwallCommerce.dbo.vw_BT_Customers,View,Wade Hollister,2016-02-01,2016-02-01,N,N,Review at TR-03 phase 1
+CUST-0173,Integration / batch,vw BT ARAging,SlatwallCommerce.dbo.vw_BT_ARAging,View,Wade Hollister,2019-04-02,2019-04-02,N,N,Review at TR-03 phase 1
+CUST-0174,Integration / batch,vw Rpt OpenPicks,SlatwallCommerce.dbo.vw_Rpt_OpenPicks,View,Priscilla Nance,2019-10-08,2019-10-08,N,N,Review at TR-03 phase 1
+CUST-0175,Integration / batch,vw Rpt CreditHolds,SlatwallCommerce.dbo.vw_Rpt_CreditHolds,View,Wade Hollister,2017-01-23,2026-06-29,N,N,Review at TR-03 phase 1
+CUST-0176,Integration / batch,vw Web ProductFeed,SlatwallCommerce.dbo.vw_Web_ProductFeed,View,Priscilla Nance,2018-11-26,2018-11-26,N,N,Review at TR-03 phase 1
+CUST-0177,Integration / batch,vw Admin OrderSearch,SlatwallCommerce.dbo.vw_Admin_OrderSearch,View,Wade Hollister,2015-02-17,2015-02-17,N,N,Review at TR-03 phase 1
+CUST-0178,Integration / batch,vw Fivetran StockPosition,SlatwallCommerce.dbo.vw_Fivetran_StockPosition,View,Priscilla Nance,2024-04-08,2024-04-08,N,N,Review at TR-03 phase 1
+CUST-0179,Integration / batch,vw Legacy CustomerExport,SlatwallCommerce.dbo.vw_Legacy_CustomerExport,View,Epicor PS (migration),2014-03-04,2014-03-04,N,N,Review at TR-03 phase 1
+CUST-0180,Integration / batch,trg SwInventory RecalcStock,SlatwallCommerce.dbo.trg_SwInventory_RecalcStock,Trigger,Wade Hollister,2014-04-22,2014-04-22,N,N,Review at TR-03 phase 1
+CUST-0181,Integration / batch,trg SwOrder StatusAudit,SlatwallCommerce.dbo.trg_SwOrder_StatusAudit,Trigger,Wade Hollister,2015-02-17,2015-02-17,N,N,Review at TR-03 phase 1
+CUST-0182,Integration / batch,trg SwAccount ModifiedStamp,SlatwallCommerce.dbo.trg_SwAccount_ModifiedStamp,Trigger,Wade Hollister,2014-03-18,2014-03-18,N,N,Review at TR-03 phase 1
+CUST-0183,Integration / batch,trg SwSku WebSync,SlatwallCommerce.dbo.trg_SwSku_WebSync,Trigger,Priscilla Nance,2018-11-26,2018-11-26,N,N,Review at TR-03 phase 1
+CUST-0184,Integration / batch,trg SwZonePrice WebSync,SlatwallCommerce.dbo.trg_SwZonePrice_WebSync,Trigger,Priscilla Nance,2019-08-26,2020-03-09,N,N,Review at TR-03 phase 1
+CUST-0185,Integration / batch,trg SwCreditHold Audit,SlatwallCommerce.dbo.trg_SwCreditHold_Audit,Trigger,Wade Hollister,2026-06-29,2026-06-29,N,N,Review at TR-03 phase 1
+CUST-0186,Purchasing,Pro tier price matrix (BisTrack price book override),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2019-07-10,2026-08-08,N,N,Review at TR-03 phase 1
+CUST-0187,Reporting,Job credit exposure calc (BisTrack customer screen),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2018-04-25,2023-02-22,N,N,Review at TR-03 phase 1
+CUST-0188,Price path,Delivery scheduling tab,Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2024-09-19,2022-04-26,N,N,Review at TR-03 phase 1
+CUST-0189,Purchasing,Counter ticket export to SWC,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2014-03-22,2024-11-22,N,N,Review at TR-03 phase 1
+CUST-0190,Integration / batch,Customer export to SWC,Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2017-01-14,2025-08-01,N,N,Review at TR-03 phase 1
+CUST-0191,Integration / batch,Item export to SWC,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2022-04-24,2025-11-15,N,N,Review at TR-03 phase 1
+CUST-0192,Order path,Zone price export,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2015-10-21,2026-11-14,N,N,Review at TR-03 phase 1
+CUST-0193,Credit,Rebate GL posting (manual journal template),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2023-12-09,2022-03-13,N,N,Review at TR-03 phase 1
+CUST-0194,Reporting,Freight accrual GL posting,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2014-08-22,2023-10-02,N,N,Review at TR-03 phase 1
+CUST-0195,Integration / batch,Lien deadline field on job,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2024-06-25,2026-09-20,N,N,Review at TR-03 phase 1
+CUST-0196,Purchasing,Lumber tally screen,Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2014-11-26,2023-03-03,N,N,Review at TR-03 phase 1
+CUST-0197,Integration / batch,Random-length tally conversion,Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2024-12-12,2024-06-25,N,N,Review at TR-03 phase 1
+CUST-0198,Reporting,Pro statement format,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2014-07-07,2025-07-26,N,N,Review at TR-03 phase 1
+CUST-0199,Credit,Cash drawer close report,Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2018-10-20,2024-12-02,N,N,Review at TR-03 phase 1
+CUST-0200,Integration / batch,Yard pick ticket format,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2016-04-20,2022-04-02,N,N,Review at TR-03 phase 1
+CUST-0201,Reporting,Special order flag on item,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2016-10-26,2025-10-17,N,N,Review at TR-03 phase 1
+CUST-0202,Credit,Cut-to-length charge,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2024-08-11,2025-07-17,N,N,Review at TR-03 phase 1
+CUST-0203,Reporting,Truss quote import,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2022-01-25,2025-02-21,N,N,Review at TR-03 phase 1
+CUST-0204,Credit,Boom truck surcharge,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2014-05-07,2026-08-04,N,N,Review at TR-03 phase 1
+CUST-0205,Price path,Will-call release screen,Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2020-06-24,2025-09-16,N,N,Review at TR-03 phase 1
+CUST-0206,Reporting,Pro tier price matrix (BisTrack price book override) (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2022-08-20,2024-03-21,N,N,Review at TR-03 phase 1
+CUST-0207,Price path,Job credit exposure calc (BisTrack customer screen) (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2018-07-09,2024-06-18,N,N,Review at TR-03 phase 1
+CUST-0208,Order path,Delivery scheduling tab (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2019-12-25,2026-12-18,N,N,Review at TR-03 phase 1
+CUST-0209,Price path,Counter ticket export to SWC (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2019-12-01,2025-05-17,N,N,Review at TR-03 phase 1
+CUST-0210,Price path,Customer export to SWC (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2014-07-09,2022-09-06,N,N,Review at TR-03 phase 1
+CUST-0211,Credit,Item export to SWC (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2016-10-02,2026-08-12,N,N,Review at TR-03 phase 1
+CUST-0212,Credit,Zone price export (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2020-03-22,2023-09-22,N,N,Review at TR-03 phase 1
+CUST-0213,Reporting,Rebate GL posting (manual journal template) (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Wade Hollister,2023-02-02,2024-01-17,N,N,Review at TR-03 phase 1
+CUST-0214,Purchasing,Freight accrual GL posting (variant 2),Epicor BisTrack (customization layer; not in this repository),BisTrack,Epicor PS,2015-02-20,2022-09-13,N,N,Review at TR-03 phase 1
